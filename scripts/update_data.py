@@ -19,6 +19,7 @@ if df is None or len(df) == 0:
 
 df = df[['full_name', 'team', 'position', 'college']].dropna(subset=['full_name'])
 df = df.drop_duplicates(subset=['full_name', 'team'])
+df = df.astype(object).where(pd.notnull(df), None)
 
 players = df.to_dict(orient='records')
 
