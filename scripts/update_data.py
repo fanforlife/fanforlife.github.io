@@ -18,7 +18,14 @@ if df is None or len(df) == 0:
     df = try_year(current_year - 1)
 
 df = df[['full_name', 'team', 'position', 'college']].dropna(subset=['full_name'])
-df = df.drop_duplicates(subset=['full_name', 'team'])
+
+# Split multi-school entries (e.g. "LSU; Ohio State") into one row per college
+df['college'] = df['college'].fillna('').astype(str).str.split(';')
+df = df.explode('college')
+df['college'] = df['college'].str.strip()
+df = df[df['college'] != '']
+
+df = df.drop_duplicates(subset=['full_name', 'team', 'college'])
 df = df.astype(object).where(pd.notnull(df), None)
 
 players = df.to_dict(orient='records')
