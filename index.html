@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pro Athletes by School</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
+<body>
+  <h1>NFL Players by College</h1>
+  <table id="players" class="display">
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Position</th>
+        <th>College</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Patrick Mahomes</td><td>Chiefs</td><td>QB</td><td>Texas Tech</td></tr>
+      <tr><td>Josh Allen</td><td>Bills</td><td>QB</td><td>Wyoming</td></tr>
+      <tr><td>Nick Bosa</td><td>49ers</td><td>DE</td><td>Ohio State</td></tr>
+      <tr><td>CeeDee Lamb</td><td>Cowboys</td><td>WR</td><td>Oklahoma</td></tr>
+    </tbody>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#players').DataTable();
+    });
+  </script>
+</body>
+</html>
