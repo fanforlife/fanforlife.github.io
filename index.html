@@ -7,6 +7,7 @@
     body { font-family: Arial, sans-serif; margin: 40px; }
     #search-box { margin-bottom: 15px; }
     #search-box input { padding: 8px; font-size: 16px; width: 300px; }
+    table.dataTable { font-size: 14px; }
   </style>
 </head>
 <body>
@@ -24,6 +25,11 @@
         <th>Team</th>
         <th>Position</th>
         <th>College</th>
+        <th>Next Game</th>
+        <th>Opponent</th>
+        <th>CST</th>
+        <th>PST</th>
+        <th>Network</th>
       </tr>
     </thead>
     <tbody id="players-body">
@@ -38,19 +44,28 @@
       .then(players => {
         const tbody = document.getElementById('players-body');
         players.forEach(p => {
+          const networkCell = p.network
+            ? (p.network_link
+                ? `<a href="${p.network_link}" target="_blank">${p.network}</a>`
+                : p.network)
+            : '';
           const row = document.createElement('tr');
           row.innerHTML = `
             <td>${p.full_name ?? ''}</td>
             <td>${p.team ?? ''}</td>
             <td>${p.position ?? ''}</td>
             <td>${p.college ?? ''}</td>
+            <td>${p.date ?? ''}</td>
+            <td>${p.opponent ?? ''}</td>
+            <td>${p.time_cst ?? ''}</td>
+            <td>${p.time_pst ?? ''}</td>
+            <td>${networkCell}</td>
           `;
           tbody.appendChild(row);
         });
 
         const table = $('#players').DataTable();
 
-        // Dedicated college search box, filters only the College column (index 3)
         $('#college-search').on('keyup', function() {
           table.column(3).search(this.value).draw();
         });
