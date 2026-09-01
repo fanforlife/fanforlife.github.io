@@ -44,11 +44,7 @@
       .then(players => {
         const tbody = document.getElementById('players-body');
         players.forEach(p => {
-          const networkCell = p.network
-            ? (p.network_link
-                ? `<a href="${p.network_link}" target="_blank">${p.network}</a>`
-                : p.network)
-            : '';
+          const networkCell = p.network ?? '';
           const row = document.createElement('tr');
           row.innerHTML = `
             <td>${p.full_name ?? ''}</td>
