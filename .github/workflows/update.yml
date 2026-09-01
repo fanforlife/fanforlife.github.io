@@ -24,6 +24,8 @@ jobs:
         run: pip install pandas
 
       - name: Run update script
+        env:
+          BALLDONTLIE_API_KEY: ${{ secrets.BALLDONTLIE_API_KEY }}
         run: python scripts/update_data.py
 
       - name: Commit and push if changed
