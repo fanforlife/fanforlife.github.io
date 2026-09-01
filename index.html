@@ -5,30 +5,43 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <style>
     body { font-family: Arial, sans-serif; margin: 40px; }
-    #search-box { margin-bottom: 15px; }
-    #search-box input { padding: 8px; font-size: 16px; width: 300px; }
+    #search-box { margin-bottom: 15px; display: flex; gap: 20px; align-items: flex-end; flex-wrap: wrap; }
+    #search-box input, #search-box select { padding: 8px; font-size: 16px; }
+    #search-box input { width: 260px; }
     table.dataTable { font-size: 14px; }
   </style>
 </head>
 <body>
-  <h1>NFL Players by College</h1>
+  <h1>Pro Athletes by College</h1>
 
   <div id="search-box">
-    <label for="college-search"><strong>Search by college:</strong></label><br>
-    <input type="text" id="college-search" placeholder="e.g. Ohio State">
+    <div>
+      <label for="college-search"><strong>Search by college:</strong></label><br>
+      <input type="text" id="college-search" placeholder="e.g. Ohio State">
+    </div>
+    <div>
+      <label for="sport-filter"><strong>Sport:</strong></label><br>
+      <select id="sport-filter">
+        <option value="">All Sports</option>
+        <option value="NFL">NFL</option>
+        <option value="NBA">NBA</option>
+        <option value="MLB">MLB</option>
+      </select>
+    </div>
   </div>
 
   <table id="players" class="display">
     <thead>
       <tr>
+        <th>Sport</th>
         <th>Player</th>
         <th>Team</th>
         <th>Position</th>
         <th>College</th>
         <th>Next Game</th>
         <th>Opponent</th>
-        <th>CST</th>
-        <th>PST</th>
+        <th>Central</th>
+        <th>Pacific</th>
         <th>Network</th>
       </tr>
     </thead>
@@ -44,9 +57,9 @@
       .then(players => {
         const tbody = document.getElementById('players-body');
         players.forEach(p => {
-          const networkCell = p.network ?? '';
           const row = document.createElement('tr');
           row.innerHTML = `
+            <td>${p.sport ?? ''}</td>
             <td>${p.full_name ?? ''}</td>
             <td>${p.team ?? ''}</td>
             <td>${p.position ?? ''}</td>
@@ -55,7 +68,7 @@
             <td>${p.opponent ?? ''}</td>
             <td>${p.time_cst ?? ''}</td>
             <td>${p.time_pst ?? ''}</td>
-            <td>${networkCell}</td>
+            <td>${p.network ?? ''}</td>
           `;
           tbody.appendChild(row);
         });
@@ -63,7 +76,11 @@
         const table = $('#players').DataTable();
 
         $('#college-search').on('keyup', function() {
-          table.column(3).search(this.value).draw();
+          table.column(4).search(this.value).draw();
+        });
+
+        $('#sport-filter').on('change', function() {
+          table.column(0).search(this.value).draw();
         });
       })
       .catch(err => {
