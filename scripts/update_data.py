@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -7,17 +8,14 @@ ET = ZoneInfo("America/New_York")
 CT = ZoneInfo("America/Chicago")
 PT = ZoneInfo("America/Los_Angeles")
 
-NETWORK_LINKS = {
-    "CBS": "https://www.cbssports.com/watch/",
-    "FOX": "https://www.fox.com/live/",
-    "NBC": "https://www.nbc.com/live",
-    "ESPN": "https://www.espn.com/watch/",
-    "ABC": "https://abc.com/watch-live",
-    "NFLN": "https://www.nfl.com/network/",
-    "Amazon": "https://www.amazon.com/gp/video/storefront",
-    "Prime Video": "https://www.amazon.com/gp/video/storefront",
-    "Peacock": "https://www.peacocktv.com/",
+# nflverse and ESPN use slightly different abbreviations for a couple of teams
+ESPN_ABBR_OVERRIDES = {
+    "LA": "LAR",
+    "WAS": "WSH",
 }
+
+def espn_abbr(team):
+    return ESPN_ABBR_OVERRIDES.get(team, team)
 
 def try_year_roster(year):
     url = f"https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_{year}.csv"
@@ -45,6 +43,33 @@ def load_schedules():
             print(f"Could not load {url}: {e}")
     return None
 
+def fetch_espn_network(date_str):
+    """date_str is YYYY-MM-DD. Returns {team_abbr: network_name} for games on that date."""
+    yyyymmdd = date_str.replace("-", "")
+    url = f"https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates={yyyymmdd}"
+    result = {}
+    try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+        for event in data.get('events', []):
+            competitions = event.get('competitions', [])
+            if not competitions:
+                continue
+            comp = competitions[0]
+            network_names = []
+            for b in comp.get('broadcasts', []):
+                network_names.extend(b.get('names', []))
+            network = network_names[0] if network_names else None
+            if not network:
+                continue
+            for competitor in comp.get('competitors', []):
+                abbr = competitor.get('team', {}).get('abbreviation')
+                if abbr:
+                    result[abbr] = network
+    except Exception as e:
+        print(f"ESPN fetch failed for {date_str}: {e}")
+    return result
+
 # ---- Roster + college data ----
 current_year = datetime.now().year
 roster_df = try_year_roster(current_year)
@@ -61,14 +86,10 @@ roster_df = roster_df.drop_duplicates(subset=['full_name', 'team', 'college'])
 # ---- Schedule + next game data ----
 sched_df = load_schedules()
 next_game_by_team = {}
+raw_gameday_by_team = {}
 
 if sched_df is not None and 'season' in sched_df.columns:
     sched_df = sched_df[sched_df['season'] == sched_df['season'].max()]
-    print("Schedule columns:", list(sched_df.columns))
-    if 'network' in sched_df.columns:
-        print("Sample network values:", sched_df['network'].dropna().unique()[:10])
-    else:
-        print("No 'network' column in this data")
 
     def make_dt(row):
         try:
@@ -85,21 +106,36 @@ if sched_df is not None and 'season' in sched_df.columns:
 
     for _, game in upcoming.iterrows():
         kickoff = game['kickoff_et']
-        network = game.get('network', None)
-        network = None if pd.isna(network) else str(network)
+        home = game['home_team']
+        away = game['away_team']
         info_base = {
             "date": kickoff.strftime("%a, %b %d, %Y"),
             "time_et": kickoff.strftime("%I:%M %p ET").lstrip("0"),
             "time_cst": kickoff.astimezone(CT).strftime("%I:%M %p Central").lstrip("0"),
             "time_pst": kickoff.astimezone(PT).strftime("%I:%M %p Pacific").lstrip("0"),
-            "network": network,
+            "network": None,
         }
-        home = game['home_team']
-        away = game['away_team']
         if home not in next_game_by_team:
             next_game_by_team[home] = {**info_base, "opponent": f"vs {away}"}
+            raw_gameday_by_team[home] = game['gameday']
         if away not in next_game_by_team:
             next_game_by_team[away] = {**info_base, "opponent": f"@ {home}"}
+            raw_gameday_by_team[away] = game['gameday']
+
+    # Fill in broadcast network via ESPN's public (unofficial) scoreboard endpoint
+    unique_dates = set(raw_gameday_by_team.values())
+    espn_network_by_date_team = {}
+    for d in unique_dates:
+        for abbr, net in fetch_espn_network(d).items():
+            espn_network_by_date_team[(d, abbr)] = net
+
+    for team, gameday in raw_gameday_by_team.items():
+        network = espn_network_by_date_team.get((gameday, espn_abbr(team)))
+        next_game_by_team[team]['network'] = network
+        if network:
+            print(f"{team}: {network}")
+        else:
+            print(f"{team}: no network found for {gameday}")
 
 # ---- Merge next game info into roster ----
 def attach_next_game(row):
@@ -108,7 +144,7 @@ def attach_next_game(row):
         return pd.Series(ng)
     return pd.Series({
         "date": None, "time_et": None, "time_cst": None,
-        "time_pst": None, "network": None, "network_link": None, "opponent": None
+        "time_pst": None, "network": None, "opponent": None
     })
 
 next_game_cols = roster_df.apply(attach_next_game, axis=1)
