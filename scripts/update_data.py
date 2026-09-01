@@ -64,8 +64,7 @@ next_game_by_team = {}
 
 if sched_df is not None and 'season' in sched_df.columns:
     sched_df = sched_df[sched_df['season'] == sched_df['season'].max()]
-
-        print("Schedule columns:", list(sched_df.columns))
+    print("Schedule columns:", list(sched_df.columns))
     if 'network' in sched_df.columns:
         print("Sample network values:", sched_df['network'].dropna().unique()[:10])
     else:
