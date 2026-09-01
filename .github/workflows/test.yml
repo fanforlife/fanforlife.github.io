@@ -14,4 +14,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run test script
+        env:
+          BALLDONTLIE_API_KEY: ${{ secrets.BALLDONTLIE_API_KEY }}
         run: python scripts/test_apis.py
