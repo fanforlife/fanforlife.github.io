@@ -15,20 +15,33 @@
         <th>College</th>
       </tr>
     </thead>
-    <tbody>
-      <tr><td>Patrick Mahomes</td><td>Chiefs</td><td>QB</td><td>Texas Tech</td></tr>
-      <tr><td>Josh Allen</td><td>Bills</td><td>QB</td><td>Wyoming</td></tr>
-      <tr><td>Nick Bosa</td><td>49ers</td><td>DE</td><td>Ohio State</td></tr>
-      <tr><td>CeeDee Lamb</td><td>Cowboys</td><td>WR</td><td>Oklahoma</td></tr>
+    <tbody id="players-body">
+      <!-- Rows get filled in automatically by the script below -->
     </tbody>
   </table>
 
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   <script>
-    $(document).ready(function() {
-      $('#players').DataTable();
-    });
+    fetch('players.json')
+      .then(response => response.json())
+      .then(players => {
+        const tbody = document.getElementById('players-body');
+        players.forEach(p => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${p.full_name ?? ''}</td>
+            <td>${p.team ?? ''}</td>
+            <td>${p.position ?? ''}</td>
+            <td>${p.college ?? ''}</td>
+          `;
+          tbody.appendChild(row);
+        });
+        $('#players').DataTable();
+      })
+      .catch(err => {
+        document.body.innerHTML += '<p style="color:red">Could not load player data: ' + err + '</p>';
+      });
   </script>
 </body>
 </html>
