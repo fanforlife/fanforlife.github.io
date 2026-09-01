@@ -91,10 +91,9 @@ if sched_df is not None and 'season' in sched_df.columns:
         info_base = {
             "date": kickoff.strftime("%a, %b %d, %Y"),
             "time_et": kickoff.strftime("%I:%M %p ET").lstrip("0"),
-            "time_cst": kickoff.astimezone(CT).strftime("%I:%M %p CT").lstrip("0"),
-            "time_pst": kickoff.astimezone(PT).strftime("%I:%M %p PT").lstrip("0"),
+            "time_cst": kickoff.astimezone(CT).strftime("%I:%M %p Central").lstrip("0"),
+            "time_pst": kickoff.astimezone(PT).strftime("%I:%M %p Pacific").lstrip("0"),
             "network": network,
-            "network_link": NETWORK_LINKS.get(network) if network else None,
         }
         home = game['home_team']
         away = game['away_team']
