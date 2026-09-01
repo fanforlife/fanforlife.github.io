@@ -1593,7 +1593,7 @@
     "full_name": "Jordan Mailata",
     "team": "PHI",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Zaire Franklin",
@@ -3981,7 +3981,7 @@
     "full_name": "Isaac Alarcon",
     "team": "SF",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Chris Blair",
@@ -5241,13 +5241,13 @@
     "full_name": "Roy Mbaeteka",
     "team": "IND",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Haggai Ndubuisi",
     "team": "TB",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Elijah Garcia",
@@ -7101,7 +7101,7 @@
     "full_name": "Adedayo Odeleye",
     "team": "DAL",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Lucas Havrisik",
@@ -9219,19 +9219,19 @@
     "full_name": "Chukwuebuka Godrick",
     "team": "KC",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Basil Okoye",
     "team": "NYG",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "David Agoha",
     "team": "TEN",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Austin Ajiake",
@@ -9249,7 +9249,7 @@
     "full_name": "Charlie Smyth",
     "team": "NO",
     "position": "K",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Dante Miller",
@@ -10875,7 +10875,7 @@
     "full_name": "Qwan'tez Stiggers",
     "team": "NYJ",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Olumuyiwa Fashanu",
@@ -11553,7 +11553,7 @@
     "full_name": "Travis Clayton",
     "team": "BUF",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Julius Welschof",
@@ -11565,7 +11565,7 @@
     "full_name": "Laekin Vakalahi",
     "team": "LAC",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Bayron Matos",
@@ -11613,7 +11613,7 @@
     "full_name": "T.J. Maguranyanga",
     "team": "WAS",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Tyler Booker",
@@ -14805,13 +14805,13 @@
     "full_name": "Laki Tasi",
     "team": "TEN",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Mapalo Mwansa",
     "team": "CAR",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Federico Maranges",
@@ -14865,19 +14865,19 @@
     "full_name": "Devin Veresuk",
     "team": "IND",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Damien Alford",
     "team": "NO",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Quinshon Judkins",
     "team": "GB",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Rob Carter Jr.",
@@ -14895,7 +14895,7 @@
     "full_name": "Paschal Ekeji",
     "team": "NYJ",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jaheim Thomas",
@@ -14913,7 +14913,7 @@
     "full_name": "Luke Elzinga",
     "team": "BAL",
     "position": "P",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jeffrey M'ba",
@@ -15201,7 +15201,7 @@
     "full_name": "Shad Banks",
     "team": "TEN",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Hank Beatty",
@@ -15231,7 +15231,7 @@
     "full_name": "Latrell McCutchin",
     "team": "TEN",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jalen McMurray",
@@ -15291,7 +15291,7 @@
     "full_name": "Joshua Weru",
     "team": "PHI",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Dae'Quan Wright",
@@ -15399,7 +15399,7 @@
     "full_name": "R.J. Maryland",
     "team": "GB",
     "position": "TE",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jaden Nixon",
@@ -15639,7 +15639,7 @@
     "full_name": "Diego Pavia",
     "team": "BAL",
     "position": "QB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Ty Pezza",
@@ -15777,7 +15777,7 @@
     "full_name": "Christian Thomas",
     "team": "LV",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Tanner Wall",
@@ -15813,7 +15813,7 @@
     "full_name": "Isiah King",
     "team": "PHI",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Patrick Gurd",
@@ -15855,7 +15855,7 @@
     "full_name": "Jonathan Brady",
     "team": "LV",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "David Bailey",
@@ -16515,7 +16515,7 @@
     "full_name": "Aidan Laros",
     "team": "PIT",
     "position": "P",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Rene Konga",
@@ -16671,7 +16671,7 @@
     "full_name": "Le'Veon Moss",
     "team": "MIA",
     "position": "RB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Mason Reiger",
@@ -16749,7 +16749,7 @@
     "full_name": "Gabriel Plascencia",
     "team": "CHI",
     "position": "K",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Skyler Thomas",
@@ -16839,7 +16839,7 @@
     "full_name": "Philip Florenzo",
     "team": "ATL",
     "position": "LS",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Cash Jones",
@@ -16857,7 +16857,7 @@
     "full_name": "C.J. Nunnally",
     "team": "ATL",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jack Strand",
@@ -16881,7 +16881,7 @@
     "full_name": "Garrison Grimes",
     "team": "NYJ",
     "position": "LS",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Caullin Lacy",
@@ -16929,7 +16929,7 @@
     "full_name": "Alex Bullock",
     "team": "JAX",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Ethan Conner",
@@ -17007,7 +17007,7 @@
     "full_name": "Jordan White",
     "team": "JAX",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Michael Wortham",
@@ -17025,7 +17025,7 @@
     "full_name": "Gabriel Benyard",
     "team": "BUF",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Theron Gaines",
@@ -17079,7 +17079,7 @@
     "full_name": "Lincoln Pare",
     "team": "IND",
     "position": "RB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Nolan Rucci",
@@ -17235,7 +17235,7 @@
     "full_name": "Daylan Carnell",
     "team": "PIT",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Kevin Jobity Jr.",
@@ -17259,7 +17259,7 @@
     "full_name": "Squirrel White",
     "team": "CHI",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Keelan Marion",
@@ -17295,7 +17295,7 @@
     "full_name": "Kody Huisman",
     "team": "BUF",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Ja'Mori Maclin",
@@ -17307,7 +17307,7 @@
     "full_name": "Desmond Reid",
     "team": "BUF",
     "position": "RB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Max Tomczak",
@@ -17523,13 +17523,13 @@
     "full_name": "Jack Stonehouse",
     "team": "HOU",
     "position": "P",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jalen Walthall",
     "team": "NYJ",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Noah Whittington",
@@ -17631,7 +17631,7 @@
     "full_name": "Zxavian Harris",
     "team": "NO",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Michael Heldman",
@@ -17649,7 +17649,7 @@
     "full_name": "DaShawn Jones",
     "team": "NO",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jeremiah McClendon",
@@ -17661,7 +17661,7 @@
     "full_name": "Mason Shipley",
     "team": "NO",
     "position": "K",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Keeshawn Silver",
@@ -17685,7 +17685,7 @@
     "full_name": "Ja'Qurious Conley",
     "team": "TB",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Caden Fordham",
@@ -17727,13 +17727,13 @@
     "full_name": "Monkell Goodwine",
     "team": "MIN",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Keli Lawson",
     "team": "MIN",
     "position": "LB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Tristan Leigh",
@@ -17751,7 +17751,7 @@
     "full_name": "Kejon Owens",
     "team": "MIN",
     "position": "RB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Tomas Rimac",
@@ -17787,7 +17787,7 @@
     "full_name": "Luke Wysong",
     "team": "MIN",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Khalil Dinkins",
@@ -17979,7 +17979,7 @@
     "full_name": "Isaiah Nwokobia",
     "team": "CIN",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Christen Miller",
@@ -18165,7 +18165,7 @@
     "full_name": "Drey Norwood",
     "team": "LA",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Darryl Peterson III",
@@ -18201,7 +18201,7 @@
     "full_name": "Chad Lindberg",
     "team": "LA",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jaxson Moi",
@@ -18339,7 +18339,7 @@
     "full_name": "Paul Manning",
     "team": "DEN",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Brock Rechsteiner",
@@ -18381,7 +18381,7 @@
     "full_name": "Miles Kitselman",
     "team": "DET",
     "position": "TE",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Anthony Lucas",
@@ -18405,7 +18405,7 @@
     "full_name": "De'Shawn Rucker",
     "team": "DET",
     "position": "DB",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Colton Hood",
@@ -18483,7 +18483,7 @@
     "full_name": "Mante Morrow",
     "team": "LAC",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Trayvon Rudolph",
@@ -18573,7 +18573,7 @@
     "full_name": "Aaron Anderson",
     "team": "CLE",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Reid Carrico",
@@ -18705,7 +18705,7 @@
     "full_name": "Romello Brinson",
     "team": "DAL",
     "position": "WR",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Jalen Farmer",
@@ -19059,7 +19059,7 @@
     "full_name": "Jarrod Gray",
     "team": "NYG",
     "position": "OL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Seydou Traore",
@@ -19071,7 +19071,7 @@
     "full_name": "Uar Bernard",
     "team": "PHI",
     "position": "DL",
-    "college": NaN
+    "college": null
   },
   {
     "full_name": "Brett Thorson",
