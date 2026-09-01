@@ -146,12 +146,13 @@ def build_nfl_rows():
     return roster_df.to_dict(orient='records')
 
 # ============ balldontlie (NBA + MLB) ============
-def fetch_balldontlie_players(sport_path):
+def fetch_balldontlie_players(sport_path, active_only=False):
     all_players = []
     cursor = None
     page_count = 0
+    endpoint = "players/active" if active_only else "players"
     while True:
-        url = f"https://api.balldontlie.io/{sport_path}/v1/players?per_page=100"
+        url = f"https://api.balldontlie.io/{sport_path}/v1/{endpoint}?per_page=100"
         if cursor is not None:
             url += f"&cursor={cursor}"
         req = urllib.request.Request(url, headers={"Authorization": BDL_API_KEY})
@@ -171,7 +172,7 @@ def fetch_balldontlie_players(sport_path):
     return all_players
 
 def build_nba_rows():
-    raw = fetch_balldontlie_players("nba")
+    raw = fetch_balldontlie_players("nba", active_only=True)
     rows = []
     for p in raw:
         college = p.get('college')
@@ -191,6 +192,8 @@ def build_mlb_rows():
     raw = fetch_balldontlie_players("mlb")
     rows = []
     for p in raw:
+        if not p.get('active'):
+            continue
         college = p.get('college')
         if not college:
             continue
