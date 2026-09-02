@@ -3,7 +3,7 @@ import json
 import time
 import urllib.request
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
@@ -68,6 +68,33 @@ def fetch_espn_network(date_str):
     except Exception as e:
         print(f"ESPN fetch failed for {date_str}: {e}")
     return result
+
+def load_injuries():
+    current_year = datetime.now().year
+    for year in [current_year, current_year - 1]:
+        url = f"https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{year}.csv"
+        try:
+            df = pd.read_csv(url)
+            if len(df) > 0:
+                print(f"Loaded injury data from {url}")
+                return df
+        except Exception as e:
+            print(f"Could not load {url}: {e}")
+    return None
+
+def build_injury_status_by_player():
+    df = load_injuries()
+    status_by_player = {}
+    if df is not None and 'week' in df.columns:
+        latest_week = df['week'].max()
+        latest = df[df['week'] == latest_week]
+        print(f"Using injury report data from week {latest_week}, {len(latest)} entries")
+        for _, row in latest.iterrows():
+            name = row.get('full_name')
+            status = row.get('report_status')
+            if pd.notna(name) and pd.notna(status):
+                status_by_player[name] = status
+    return status_by_player
 
 def build_nfl_rows():
     current_year = datetime.now().year
@@ -141,6 +168,10 @@ def build_nfl_rows():
 
     next_game_cols = roster_df.apply(attach_next_game, axis=1)
     roster_df = pd.concat([roster_df.reset_index(drop=True), next_game_cols.reset_index(drop=True)], axis=1)
+
+    injury_status_by_player = build_injury_status_by_player()
+    roster_df['injury_status'] = roster_df['full_name'].map(injury_status_by_player).fillna('')
+
     roster_df['sport'] = 'NFL'
     roster_df = roster_df.astype(object).where(pd.notnull(roster_df), None)
     return roster_df.to_dict(orient='records')
@@ -183,8 +214,8 @@ def build_nba_rows():
         rows.append({
             "full_name": full_name, "team": team, "position": p.get('position'),
             "college": college, "sport": "NBA",
-            "date": None, "time_et": None, "time_cst": None, "time_pst": None,
-            "network": None, "opponent": None
+            "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
+            "injury_status": None
         })
     return rows
 
@@ -201,8 +232,8 @@ def build_mlb_rows():
         rows.append({
             "full_name": p.get('full_name'), "team": team, "position": p.get('position'),
             "college": college, "sport": "MLB",
-            "date": None, "time_et": None, "time_cst": None, "time_pst": None,
-            "network": None, "opponent": None
+            "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
+            "injury_status": None
         })
     return rows
 
@@ -217,7 +248,6 @@ all_rows.extend(build_nfl_rows())
 with open('players.json', 'w') as f:
     json.dump(all_rows, f, indent=2)
 
-from datetime import timezone
 with open('last_updated.json', 'w') as f:
     json.dump({"updated_at": datetime.now(timezone.utc).isoformat()}, f)
 
