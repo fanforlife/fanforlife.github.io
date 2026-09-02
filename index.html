@@ -1,41 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Pro Athletes by School</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    #search-box { margin-bottom: 15px; display: flex; gap: 20px; align-items: flex-end; flex-wrap: wrap; }
-    #search-box input, #search-box select { padding: 8px; font-size: 16px; }
-    #search-box input { width: 260px; }
-    table.dataTable { font-size: 14px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roster Search — Pro Athletes by College</title>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<style>
+  :root {
+    --bg: #FAFAF8;
+    --panel: #F1F2EE;
+    --ink: #1A2029;
+    --ink-soft: #5B6472;
+    --line: #DDE0DA;
+    --accent: #1E5B3A;
+    --nfl: #2C4A6E;
+    --nba: #A45A2A;
+    --mlb: #8C2F39;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    padding: 28px 32px 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  header p {
+    margin: 6px 0 0;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  #toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    padding: 16px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+  }
+  .field input {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 9px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    width: 240px;
+    background: white;
+  }
+  .field input:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+    border-color: var(--accent);
+  }
+  #sport-toggle {
+    display: flex;
+    gap: 6px;
+  }
+  .sport-btn {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: white;
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+  .sport-btn[data-sport="NFL"].active { background: var(--nfl); border-color: var(--nfl); color: white; }
+  .sport-btn[data-sport="NBA"].active { background: var(--nba); border-color: var(--nba); color: white; }
+  .sport-btn[data-sport="MLB"].active { background: var(--mlb); border-color: var(--mlb); color: white; }
+  .sport-btn[data-sport=""].active { background: var(--ink); border-color: var(--ink); color: white; }
+
+  main { padding: 24px 32px 60px; overflow-x: auto; }
+
+  table.dataTable {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13px;
+  }
+  table.dataTable thead th {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--ink);
+  }
+  table.dataTable tbody td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  table.dataTable tbody tr:hover { background: var(--panel); }
+
+  .pill {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    color: white;
+  }
+  .pill.NFL { background: var(--nfl); }
+  .pill.NBA { background: var(--nba); }
+  .pill.MLB { background: var(--mlb); }
+
+  .dataTables_wrapper .dataTables_info {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 12px;
+    color: var(--ink-soft);
+    padding-top: 12px;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 12px;
+    padding: 5px 10px !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--line) !important;
+    margin-left: 4px;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--accent) !important;
+    color: white !important;
+    border-color: var(--accent) !important;
+  }
+
+  footer {
+    padding: 16px 32px 32px;
+    color: var(--ink-soft);
+    font-size: 12px;
+  }
+
+  @media (max-width: 700px) {
+    header, #toolbar, main, footer { padding-left: 16px; padding-right: 16px; }
+    .field input { width: 100%; }
+    #toolbar { flex-direction: column; align-items: stretch; }
+    table.dataTable td:nth-child(4),
+    table.dataTable th:nth-child(4),
+    table.dataTable td:nth-child(8),
+    table.dataTable th:nth-child(8),
+    table.dataTable td:nth-child(9),
+    table.dataTable th:nth-child(9),
+    table.dataTable td:nth-child(10),
+    table.dataTable th:nth-child(10) {
+      display: none;
+    }
+  }
+</style>
 </head>
 <body>
-  <h1>Pro Athletes by College</h1>
 
-  <div id="search-box">
-    <div>
-      <label for="college-search"><strong>Search by college:</strong></label><br>
-      <input type="text" id="college-search" list="college-list" placeholder="e.g. Ohio State">
-      <datalist id="college-list"></datalist>
-    </div>
-    <div>
-      <label for="player-search"><strong>Search by player name:</strong></label><br>
-      <input type="text" id="player-search" list="player-list" placeholder="e.g. Patrick Mahomes">
-      <datalist id="player-list"></datalist>
-    </div>
-    <div>
-      <label for="sport-filter"><strong>Sport:</strong></label><br>
-      <select id="sport-filter">
-        <option value="">All Sports</option>
-        <option value="NFL">NFL</option>
-        <option value="NBA">NBA</option>
-        <option value="MLB">MLB</option>
-      </select>
+<header>
+  <h1>Roster Search</h1>
+  <p>Pro athletes by high school and college — NFL, NBA, MLB</p>
+</header>
+
+<div id="toolbar">
+  <div class="field">
+    <label for="college-search">College</label>
+    <input type="text" id="college-search" list="college-list" placeholder="e.g. Ohio State">
+    <datalist id="college-list"></datalist>
+  </div>
+  <div class="field">
+    <label for="player-search">Player</label>
+    <input type="text" id="player-search" list="player-list" placeholder="e.g. Patrick Mahomes">
+    <datalist id="player-list"></datalist>
+  </div>
+  <div class="field">
+    <label>Sport</label>
+    <div id="sport-toggle">
+      <button class="sport-btn active" data-sport="">All</button>
+      <button class="sport-btn" data-sport="NFL">NFL</button>
+      <button class="sport-btn" data-sport="NBA">NBA</button>
+      <button class="sport-btn" data-sport="MLB">MLB</button>
     </div>
   </div>
+</div>
 
+<main>
   <table id="players" class="display">
     <thead>
       <tr>
@@ -51,74 +215,88 @@
         <th>Network</th>
       </tr>
     </thead>
-    <tbody id="players-body">
-    </tbody>
+    <tbody id="players-body"></tbody>
   </table>
+</main>
 
-  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-  <script>
-    fetch('players.json')
-      .then(response => response.json())
-      .then(players => {
-        const tbody = document.getElementById('players-body');
-        players.forEach(p => {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${p.sport ?? ''}</td>
-            <td>${p.full_name ?? ''}</td>
-            <td>${p.team ?? ''}</td>
-            <td>${p.position ?? ''}</td>
-            <td>${p.college ?? ''}</td>
-            <td>${p.date ?? ''}</td>
-            <td>${p.opponent ?? ''}</td>
-            <td>${p.time_cst ?? ''}</td>
-            <td>${p.time_pst ?? ''}</td>
-            <td>${p.network ?? ''}</td>
-          `;
-          tbody.appendChild(row);
-        });
+<footer id="footer-note">Loading data…</footer>
 
-        // Populate autocomplete lists
-        const colleges = [...new Set(players.map(p => p.college).filter(Boolean))].sort();
-        const collegeList = document.getElementById('college-list');
-        colleges.forEach(c => {
-          const opt = document.createElement('option');
-          opt.value = c;
-          collegeList.appendChild(opt);
-        });
-
-        const names = [...new Set(players.map(p => p.full_name).filter(Boolean))].sort();
-        const playerList = document.getElementById('player-list');
-        names.forEach(n => {
-          const opt = document.createElement('option');
-          opt.value = n;
-          playerList.appendChild(opt);
-        });
-
-        const table = $('#players').DataTable({
-          pageLength: 100
-        });
-
-        $('#college-search').on('keyup change', function() {
-          table.column(4).search(this.value).draw();
-        });
-
-        $('#player-search').on('keyup change', function() {
-          table.column(1).search(this.value).draw();
-        });
-
-        $('#sport-filter').on('change', function() {
-          table.column(0).search(this.value).draw();
-        });
-
-        // Default view: Texas Tech only
-        $('#college-search').val('Texas Tech');
-        table.column(4).search('Texas Tech').draw();
-      })
-      .catch(err => {
-        document.body.innerHTML += '<p style="color:red">Could not load player data: ' + err + '</p>';
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script>
+  fetch('players.json')
+    .then(response => response.json())
+    .then(players => {
+      const tbody = document.getElementById('players-body');
+      players.forEach(p => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><span class="pill ${p.sport ?? ''}">${p.sport ?? ''}</span></td>
+          <td>${p.full_name ?? ''}</td>
+          <td>${p.team ?? ''}</td>
+          <td>${p.position ?? ''}</td>
+          <td>${p.college ?? ''}</td>
+          <td>${p.date ?? ''}</td>
+          <td>${p.opponent ?? ''}</td>
+          <td>${p.time_cst ?? ''}</td>
+          <td>${p.time_pst ?? ''}</td>
+          <td>${p.network ?? ''}</td>
+        `;
+        tbody.appendChild(row);
       });
-  </script>
+
+      const colleges = [...new Set(players.map(p => p.college).filter(Boolean))].sort();
+      const collegeList = document.getElementById('college-list');
+      colleges.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        collegeList.appendChild(opt);
+      });
+
+      const names = [...new Set(players.map(p => p.full_name).filter(Boolean))].sort();
+      const playerList = document.getElementById('player-list');
+      names.forEach(n => {
+        const opt = document.createElement('option');
+        opt.value = n;
+        playerList.appendChild(opt);
+      });
+
+      const table = $('#players').DataTable({
+        pageLength: 100,
+        dom: 'tip'
+      });
+
+      $('#college-search').on('keyup change', function() {
+        table.column(4).search(this.value).draw();
+      });
+
+      $('#player-search').on('keyup change', function() {
+        table.column(1).search(this.value).draw();
+      });
+
+      document.querySelectorAll('.sport-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.sport-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          table.column(0).search(this.dataset.sport).draw();
+        });
+      });
+
+      $('#college-search').val('Texas Tech');
+      table.column(4).search('Texas Tech').draw();
+    })
+    .catch(err => {
+      document.getElementById('footer-note').textContent = 'Could not load player data: ' + err;
+    });
+
+  fetch('last_updated.json')
+    .then(r => r.json())
+    .then(d => {
+      const dt = new Date(d.updated_at);
+      document.getElementById('footer-note').textContent = 'Data last updated: ' + dt.toLocaleString();
+    })
+    .catch(() => {});
+</script>
+
 </body>
 </html>
