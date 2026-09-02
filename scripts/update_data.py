@@ -71,15 +71,14 @@ def fetch_espn_network(date_str):
 
 def load_injuries():
     current_year = datetime.now().year
-    for year in [current_year, current_year - 1]:
-        url = f"https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{year}.csv"
-        try:
-            df = pd.read_csv(url)
-            if len(df) > 0:
-                print(f"Loaded injury data from {url}")
-                return df
-        except Exception as e:
-            print(f"Could not load {url}: {e}")
+    url = f"https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{current_year}.csv"
+    try:
+        df = pd.read_csv(url)
+        if len(df) > 0:
+            print(f"Loaded injury data from {url}")
+            return df
+    except Exception as e:
+        print(f"No current-season injury data yet ({current_year}): {e}")
     return None
 
 def build_injury_status_by_player():
