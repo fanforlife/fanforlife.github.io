@@ -1,16 +1,20 @@
-import urllib.request
-import urllib.error
-import os
+import pandas as pd
+from datetime import datetime
 
-api_key = os.environ.get("BALLDONTLIE_API_KEY")
+current_year = datetime.now().year
 
-url = "https://api.balldontlie.io/nba/v1/players/active?per_page=5"
-req = urllib.request.Request(url, headers={"Authorization": api_key})
-try:
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        print("SUCCESS")
-        print("Headers:", dict(resp.headers))
-except urllib.error.HTTPError as e:
-    print(f"HTTP {e.code}: {e.reason}")
-    print("Headers:", dict(e.headers))
-    print("Body:", e.read().decode())
+for year in [current_year, current_year - 1]:
+    url = f"https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{year}.csv"
+    try:
+        df = pd.read_csv(url)
+        print(f"=== {year}: loaded {len(df)} rows ===")
+        print("Columns:", list(df.columns))
+        if len(df) > 0:
+            print("Week range:", df['week'].min(), "to", df['week'].max())
+            latest = df[df['week'] == df['week'].max()]
+            print(f"Rows in latest week: {len(latest)}")
+            print("Sample report_status values:", latest['report_status'].dropna().unique()[:10])
+            print("Sample names:", latest['full_name'].head(5).tolist())
+        break
+    except Exception as e:
+        print(f"{year}: FAILED - {e}")
