@@ -108,6 +108,7 @@ def build_nfl_rows():
             away = game['away_team']
             info_base = {
                 "date": kickoff.strftime("%a, %b %d, %Y"),
+                "kickoff_iso": kickoff.isoformat(),
                 "time_et": kickoff.strftime("%I:%M %p ET").lstrip("0"),
                 "time_cst": kickoff.astimezone(CT).strftime("%I:%M %p Central").lstrip("0"),
                 "time_pst": kickoff.astimezone(PT).strftime("%I:%M %p Pacific").lstrip("0"),
@@ -135,7 +136,7 @@ def build_nfl_rows():
         if ng:
             return pd.Series(ng)
         return pd.Series({
-            "date": None, "time_et": None, "time_cst": None,
+            "date": None, "kickoff_iso": None, "time_et": None, "time_cst": None,
             "time_pst": None, "network": None, "opponent": None
         })
 
