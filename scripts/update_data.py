@@ -215,4 +215,8 @@ all_rows.extend(build_mlb_rows())
 with open('players.json', 'w') as f:
     json.dump(all_rows, f, indent=2)
 
+from datetime import timezone
+with open('last_updated.json', 'w') as f:
+    json.dump({"updated_at": datetime.now(timezone.utc).isoformat()}, f)
+
 print(f"Saved {len(all_rows)} total player-college rows across all sports")
