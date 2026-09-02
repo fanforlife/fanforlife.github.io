@@ -17,7 +17,13 @@
   <div id="search-box">
     <div>
       <label for="college-search"><strong>Search by college:</strong></label><br>
-      <input type="text" id="college-search" placeholder="e.g. Ohio State">
+      <input type="text" id="college-search" list="college-list" placeholder="e.g. Ohio State">
+      <datalist id="college-list"></datalist>
+    </div>
+    <div>
+      <label for="player-search"><strong>Search by player name:</strong></label><br>
+      <input type="text" id="player-search" list="player-list" placeholder="e.g. Patrick Mahomes">
+      <datalist id="player-list"></datalist>
     </div>
     <div>
       <label for="sport-filter"><strong>Sport:</strong></label><br>
@@ -73,15 +79,42 @@
           tbody.appendChild(row);
         });
 
-        const table = $('#players').DataTable();
+        // Populate autocomplete lists
+        const colleges = [...new Set(players.map(p => p.college).filter(Boolean))].sort();
+        const collegeList = document.getElementById('college-list');
+        colleges.forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c;
+          collegeList.appendChild(opt);
+        });
 
-        $('#college-search').on('keyup', function() {
+        const names = [...new Set(players.map(p => p.full_name).filter(Boolean))].sort();
+        const playerList = document.getElementById('player-list');
+        names.forEach(n => {
+          const opt = document.createElement('option');
+          opt.value = n;
+          playerList.appendChild(opt);
+        });
+
+        const table = $('#players').DataTable({
+          pageLength: 100
+        });
+
+        $('#college-search').on('keyup change', function() {
           table.column(4).search(this.value).draw();
+        });
+
+        $('#player-search').on('keyup change', function() {
+          table.column(1).search(this.value).draw();
         });
 
         $('#sport-filter').on('change', function() {
           table.column(0).search(this.value).draw();
         });
+
+        // Default view: Texas Tech only
+        $('#college-search').val('Texas Tech');
+        table.column(4).search('Texas Tech').draw();
       })
       .catch(err => {
         document.body.innerHTML += '<p style="color:red">Could not load player data: ' + err + '</p>';
