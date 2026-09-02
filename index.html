@@ -185,8 +185,7 @@
   </div>
   <div class="field">
     <label for="player-search">Player</label>
-    <input type="text" id="player-search" list="player-list" placeholder="e.g. Patrick Mahomes">
-    <datalist id="player-list"></datalist>
+    <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
   </div>
   <div class="field">
     <label>Sport</label>
@@ -251,14 +250,6 @@
         const opt = document.createElement('option');
         opt.value = c;
         collegeList.appendChild(opt);
-      });
-
-      const names = [...new Set(players.map(p => p.full_name).filter(Boolean))].sort();
-      const playerList = document.getElementById('player-list');
-      names.forEach(n => {
-        const opt = document.createElement('option');
-        opt.value = n;
-        playerList.appendChild(opt);
       });
 
       const table = $('#players').DataTable({
