@@ -209,8 +209,10 @@ def build_mlb_rows():
 # ============ Combine and save ============
 all_rows = []
 all_rows.extend(build_nfl_rows())
-all_rows.extend(build_nba_rows())
-all_rows.extend(build_mlb_rows())
+# NBA and MLB temporarily disabled — NBA access is broken on balldontlie's end,
+# pending their support response. Re-enable both lines below once resolved:
+# all_rows.extend(build_nba_rows())
+# all_rows.extend(build_mlb_rows())
 
 with open('players.json', 'w') as f:
     json.dump(all_rows, f, indent=2)
