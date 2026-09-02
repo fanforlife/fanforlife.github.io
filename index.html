@@ -49,7 +49,7 @@
     color: var(--ink-soft);
     margin-bottom: 6px;
   }
-  .field input {
+  .field input, .field select {
     font-family: inherit;
     font-size: 14px;
     padding: 9px 12px;
@@ -58,7 +58,7 @@
     width: 240px;
     background: white;
   }
-  .field input:focus {
+  .field input:focus, .field select:focus {
     outline: 2px solid var(--accent);
     outline-offset: 1px;
     border-color: var(--accent);
@@ -125,7 +125,7 @@
 
   @media (max-width: 700px) {
     header, #toolbar, main, footer { padding-left: 16px; padding-right: 16px; }
-    .field input { width: 100%; }
+    .field input, .field select { width: 100%; }
     #toolbar { flex-direction: column; align-items: stretch; }
     table.dataTable td:nth-child(4),
     table.dataTable th:nth-child(4),
@@ -144,9 +144,10 @@
 
 <div id="toolbar">
   <div class="field">
-    <label for="college-search">College</label>
-    <input type="text" id="college-search" list="college-list" placeholder="e.g. Ohio State">
-    <datalist id="college-list"></datalist>
+    <label for="college-select">College</label>
+    <select id="college-select">
+      <option value="">All Colleges</option>
+    </select>
   </div>
   <div class="field">
     <label for="player-search">Player</label>
@@ -230,11 +231,12 @@
       });
 
       const colleges = [...new Set(players.map(p => p.college).filter(Boolean))].sort();
-      const collegeList = document.getElementById('college-list');
+      const collegeSelect = document.getElementById('college-select');
       colleges.forEach(c => {
         const opt = document.createElement('option');
         opt.value = c;
-        collegeList.appendChild(opt);
+        opt.textContent = c;
+        collegeSelect.appendChild(opt);
       });
 
       const table = $('#players').DataTable({
@@ -242,16 +244,16 @@
         dom: 'tip'
       });
 
-      $('#college-search').on('keyup change', function() {
-        table.column(1).search(this.value).draw();
+      $('#college-select').on('change', function() {
+        table.column(1).search(this.value ? '^' + $.fn.dataTable.util.escapeRegex(this.value) + '$' : '', true, false).draw();
       });
 
       $('#player-search').on('keyup change', function() {
         table.column(0).search(this.value).draw();
       });
 
-      $('#college-search').val('Texas Tech');
-      table.column(1).search('Texas Tech').draw();
+      collegeSelect.value = 'Texas Tech';
+      table.column(1).search('^Texas Tech$', true, false).draw();
     })
     .catch(err => {
       document.getElementById('footer-note').textContent = 'Could not load player data: ' + err;
