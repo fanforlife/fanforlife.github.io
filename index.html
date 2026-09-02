@@ -168,6 +168,46 @@
       display: none;
     }
   }
+    #week-section {
+    padding: 20px 32px 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  #week-section h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    margin: 0 0 12px;
+  }
+  #week-calendar {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+  .day-card {
+    flex: 0 0 200px;
+    background: var(--panel);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .day-label {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .game-item {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--line);
+  }
+  .game-item:first-of-type { border-top: none; }
+  .game-teams { font-weight: 600; }
+  .game-time, .game-network { color: var(--ink-soft); }
+  @media (max-width: 700px) {
+    #week-section { padding-left: 16px; padding-right: 16px; }
+  }
 </style>
 </head>
 <body>
@@ -194,6 +234,11 @@
     </div>
   </div>
 </div>
+
+<section id="week-section" style="display:none;">
+  <h2>This week</h2>
+  <div id="week-calendar"></div>
+</section>
 
 <main>
   <table id="players" class="display">
@@ -258,8 +303,64 @@
         table.column(4).search(this.value).draw();
       });
 
+      function renderWeekView(query) {
+        const section = document.getElementById('week-section');
+        const calendarEl = document.getElementById('week-calendar');
+        calendarEl.innerHTML = '';
+
+        if (!query || query.trim() === '') {
+          section.style.display = 'none';
+          return;
+        }
+
+        const q = query.toLowerCase();
+        const seen = new Set();
+        const games = [];
+        players.forEach(p => {
+          if (!(p.college || '').toLowerCase().includes(q)) return;
+          if (!p.kickoff_iso) return;
+          const key = p.team + '|' + p.kickoff_iso;
+          if (seen.has(key)) return;
+          seen.add(key);
+          games.push(p);
+        });
+
+        if (games.length === 0) {
+          section.style.display = 'none';
+          return;
+        }
+
+        games.sort((a, b) => new Date(a.kickoff_iso) - new Date(b.kickoff_iso));
+
+        const byDate = {};
+        games.forEach(g => {
+          const d = new Date(g.kickoff_iso);
+          const key = d.toDateString();
+          if (!byDate[key]) byDate[key] = { date: d, items: [] };
+          byDate[key].items.push(g);
+        });
+
+        Object.values(byDate).forEach(group => {
+          const dayCard = document.createElement('div');
+          dayCard.className = 'day-card';
+          const label = group.date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+          const itemsHtml = group.items.map(g => `
+            <div class="game-item">
+              <div class="game-teams">${g.team ?? ''} ${g.opponent ?? ''}</div>
+              <div class="game-time">${g.time_cst ?? ''} / ${g.time_pst ?? ''}</div>
+              <div class="game-network">${g.network ?? ''}</div>
+            </div>
+          `).join('');
+          dayCard.innerHTML = `<div class="day-label">${label}</div>${itemsHtml}`;
+          calendarEl.appendChild(dayCard);
+        });
+
+        section.style.display = 'block';
+      }
+
       $('#college-search').on('keyup change', function() {
         table.column(2).search(this.value).draw();
+        renderWeekView(this.value);
       });
 
       document.querySelectorAll('.sport-btn').forEach(btn => {
@@ -272,6 +373,7 @@
 
       $('#college-search').val('Texas Tech');
       table.column(2).search('Texas Tech').draw();
+      renderWeekView('Texas Tech');
     })
     .catch(err => {
       document.getElementById('footer-note').textContent = 'Could not load player data: ' + err;
