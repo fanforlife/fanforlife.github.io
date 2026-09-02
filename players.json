@@ -49231,6 +49231,19 @@
     "opponent": null
   },
   {
+    "full_name": "Beau Brieske",
+    "team": "DET",
+    "position": "RP",
+    "college": "CSU Pueblo",
+    "sport": "MLB",
+    "date": null,
+    "time_et": null,
+    "time_cst": null,
+    "time_pst": null,
+    "network": null,
+    "opponent": null
+  },
+  {
     "full_name": "Trevor Megill",
     "team": "MIL",
     "position": "RP",
@@ -49245,7 +49258,7 @@
   },
   {
     "full_name": "John Schreiber",
-    "team": "KC",
+    "team": "NYY",
     "position": "RP",
     "college": "Northwestern Ohio",
     "sport": "MLB",
@@ -50860,6 +50873,19 @@
     "team": "PIT",
     "position": "C",
     "college": "Louisville",
+    "sport": "MLB",
+    "date": null,
+    "time_et": null,
+    "time_cst": null,
+    "time_pst": null,
+    "network": null,
+    "opponent": null
+  },
+  {
+    "full_name": "Jake Meyers",
+    "team": "HOU",
+    "position": "CF",
+    "college": "Nebraska",
     "sport": "MLB",
     "date": null,
     "time_et": null,
