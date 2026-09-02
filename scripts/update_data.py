@@ -106,12 +106,12 @@ def build_nfl_rows():
             kickoff = game['kickoff_et']
             home = game['home_team']
             away = game['away_team']
+            central_str = kickoff.astimezone(CT).strftime("%I:%M%p").lstrip("0").lower()
+            pacific_str = kickoff.astimezone(PT).strftime("%I:%M%p").lstrip("0").lower()
+            date_part = kickoff.strftime("%a, %b") + " " + str(kickoff.day)
             info_base = {
-                "date": kickoff.strftime("%a, %b %d, %Y"),
+                "next_game": f"{date_part} @ {central_str} Central / {pacific_str} Pacific",
                 "kickoff_iso": kickoff.isoformat(),
-                "time_et": kickoff.strftime("%I:%M %p ET").lstrip("0"),
-                "time_cst": kickoff.astimezone(CT).strftime("%I:%M %p Central").lstrip("0"),
-                "time_pst": kickoff.astimezone(PT).strftime("%I:%M %p Pacific").lstrip("0"),
                 "network": None,
             }
             if home not in next_game_by_team:
@@ -136,8 +136,7 @@ def build_nfl_rows():
         if ng:
             return pd.Series(ng)
         return pd.Series({
-            "date": None, "kickoff_iso": None, "time_et": None, "time_cst": None,
-            "time_pst": None, "network": None, "opponent": None
+            "next_game": None, "kickoff_iso": None, "network": None, "opponent": None
         })
 
     next_game_cols = roster_df.apply(attach_next_game, axis=1)
