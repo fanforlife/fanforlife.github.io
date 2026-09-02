@@ -3188,7 +3188,7 @@
     "kickoff_iso": "2026-09-09T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ SEA",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3512,7 +3512,7 @@
     "kickoff_iso": "2026-09-09T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ SEA",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -25028,7 +25028,7 @@
     "kickoff_iso": "2026-09-09T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ SEA",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -30464,7 +30464,7 @@
     "kickoff_iso": "2026-09-09T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs NE",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
