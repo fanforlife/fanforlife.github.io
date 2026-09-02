@@ -89,9 +89,13 @@
 
   table.dataTable tbody td a {
     text-decoration: none;
-    margin-right: 6px;
-    font-size: 15px;
+    color: var(--accent);
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
   }
+  table.dataTable tbody td a:hover { text-decoration: underline; }
 
   .dataTables_wrapper .dataTables_info {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -208,8 +212,8 @@
         const epoch = p.kickoff_iso ? new Date(p.kickoff_iso).getTime() : Number.MAX_SAFE_INTEGER;
         const links = calendarLinks(p);
         const calCell = links
-          ? `<a href="${links.iosHref}" download="game.ics" title="Add to iPhone Calendar">📅🍏</a>
-             <a href="${links.androidHref}" target="_blank" title="Add to Google Calendar">📅🤖</a>`
+          ? `<a href="${links.iosHref}" download="game.ics">iPhone</a>
+             <a href="${links.androidHref}" target="_blank">Android</a>`
           : '';
         const row = document.createElement('tr');
         row.innerHTML = `
