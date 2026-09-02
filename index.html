@@ -31,11 +31,6 @@
     font-weight: 800;
     letter-spacing: -0.02em;
   }
-  header p {
-    margin: 6px 0 0;
-    color: var(--ink-soft);
-    font-size: 14px;
-  }
   #toolbar {
     position: sticky;
     top: 0;
@@ -92,6 +87,12 @@
   }
   table.dataTable tbody tr:hover { background: var(--panel); }
 
+  table.dataTable tbody td a {
+    text-decoration: none;
+    margin-right: 6px;
+    font-size: 15px;
+  }
+
   .dataTables_wrapper .dataTables_info {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 12px;
@@ -134,7 +135,7 @@
 <body>
 
 <header>
-  <h1>Pro athletes by college</p>
+  <h1>Pro athletes by college</h1>
 </header>
 
 <div id="toolbar">
@@ -160,6 +161,7 @@
         <th>Next Game</th>
         <th>Opponent</th>
         <th>Network</th>
+        <th>Add to Calendar</th>
       </tr>
     </thead>
     <tbody id="players-body"></tbody>
@@ -174,9 +176,41 @@
   fetch('players.json')
     .then(response => response.json())
     .then(players => {
+
+      function toUtcStamp(date) {
+        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+      }
+
+      function calendarLinks(p) {
+        if (!p.kickoff_iso) return null;
+        const start = new Date(p.kickoff_iso);
+        const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
+        const title = `${p.team ?? ''} ${p.opponent ?? ''}`.trim();
+        const desc = `Broadcast: ${p.network ?? 'TBD'}`;
+        const startStamp = toUtcStamp(start);
+        const endStamp = toUtcStamp(end);
+
+        const ics = [
+          'BEGIN:VCALENDAR', 'VERSION:2.0', 'BEGIN:VEVENT',
+          `DTSTART:${startStamp}`, `DTEND:${endStamp}`,
+          `SUMMARY:${title}`, `DESCRIPTION:${desc}`,
+          'END:VEVENT', 'END:VCALENDAR'
+        ].join('\n');
+        const iosHref = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+
+        const androidHref = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startStamp}/${endStamp}&details=${encodeURIComponent(desc)}`;
+
+        return { iosHref, androidHref };
+      }
+
       const tbody = document.getElementById('players-body');
       players.forEach(p => {
         const epoch = p.kickoff_iso ? new Date(p.kickoff_iso).getTime() : Number.MAX_SAFE_INTEGER;
+        const links = calendarLinks(p);
+        const calCell = links
+          ? `<a href="${links.iosHref}" download="game.ics" title="Add to iPhone Calendar">📅🍏</a>
+             <a href="${links.androidHref}" target="_blank" title="Add to Google Calendar">📅🤖</a>`
+          : '';
         const row = document.createElement('tr');
         row.innerHTML = `
           <td>${p.full_name ?? ''}</td>
@@ -186,6 +220,7 @@
           <td data-order="${epoch}">${p.next_game ?? ''}</td>
           <td>${p.opponent ?? ''}</td>
           <td>${p.network ?? ''}</td>
+          <td>${calCell}</td>
         `;
         tbody.appendChild(row);
       });
