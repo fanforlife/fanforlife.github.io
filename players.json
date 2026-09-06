@@ -33672,30 +33672,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Jacob Roberts",
-    "team": "MIN",
-    "position": "LB",
-    "college": "Wake Forest",
-    "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
-    "kickoff_iso": "2026-09-13T16:25:00-04:00",
-    "network": "CBS",
-    "opponent": "vs GB",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Jacob Roberts",
-    "team": "MIN",
-    "position": "LB",
-    "college": "North Carolina A&T",
-    "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
-    "kickoff_iso": "2026-09-13T16:25:00-04:00",
-    "network": "CBS",
-    "opponent": "vs GB",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Rob Carter Jr.",
     "team": "IND",
     "position": "DB",
@@ -35244,30 +35220,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "EJ Smith",
-    "team": "KC",
-    "position": "RB",
-    "college": "Texas A&M",
-    "next_game": "Mon, Sep 14 @ 7:15pm Central / 5:15pm Pacific",
-    "kickoff_iso": "2026-09-14T20:15:00-04:00",
-    "network": "ESPN",
-    "opponent": "vs DEN",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "EJ Smith",
-    "team": "KC",
-    "position": "RB",
-    "college": "Stanford",
-    "next_game": "Mon, Sep 14 @ 7:15pm Central / 5:15pm Pacific",
-    "kickoff_iso": "2026-09-14T20:15:00-04:00",
-    "network": "ESPN",
-    "opponent": "vs DEN",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Josh Thompson",
     "team": "ATL",
     "position": "OL",
@@ -35580,18 +35532,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Chase Roberts",
-    "team": "LV",
-    "position": "WR",
-    "college": "BYU",
-    "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
-    "kickoff_iso": "2026-09-13T16:25:00-04:00",
-    "network": "FOX",
-    "opponent": "vs MIA",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Corey Rucker",
     "team": "LV",
     "position": "WR",
@@ -35668,30 +35608,6 @@
     "team": "LV",
     "position": "OL",
     "college": "Queens University (Canada)",
-    "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
-    "kickoff_iso": "2026-09-13T16:25:00-04:00",
-    "network": "FOX",
-    "opponent": "vs MIA",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Kamar Missouri",
-    "team": "LV",
-    "position": "OL",
-    "college": "Texas-San Antonio",
-    "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
-    "kickoff_iso": "2026-09-13T16:25:00-04:00",
-    "network": "FOX",
-    "opponent": "vs MIA",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Kamar Missouri",
-    "team": "LV",
-    "position": "OL",
-    "college": "Rutgers",
     "next_game": "Sun, Sep 13 @ 3:25pm Central / 1:25pm Pacific",
     "kickoff_iso": "2026-09-13T16:25:00-04:00",
     "network": "FOX",
