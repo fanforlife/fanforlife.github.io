@@ -1,76 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
 
 :root {
-  --bg: #ECDFC2;
-  --panel: #F4EAD3;
-  --ink: #2A2018;
-  --ink-soft: #6E5A44;
-  --line: #C7AD7E;
-  --accent: #A6192E;
-  --accent-dark: #7A1220;
-  --leather: #5B3A22;
-  --leather-dark: #402817;
-  --warn: #8B5E23;
+  --bg: #120D0A;
+  --bg-deep: #1C130D;
+  --panel: rgba(28, 19, 13, 0.72);
+  --panel-solid: #1E140E;
+  --ink: #F1E4D0;
+  --ink-soft: #B79C7C;
+  --line: rgba(241, 228, 208, 0.14);
+  --accent: #C8102E;
+  --accent-glow: rgba(200, 16, 46, 0.45);
+  --copper: #C08A4E;
+  --warn: #D9A441;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; }
 body {
   color: var(--ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
 }
 
 .bg-scene {
   position: fixed;
   inset: 0;
   z-index: -1;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  background:
+    radial-gradient(ellipse 900px 500px at 85% 10%, rgba(192, 138, 78, 0.16), transparent 60%),
+    radial-gradient(ellipse 700px 900px at 10% 100%, rgba(200, 16, 46, 0.10), transparent 55%),
+    repeating-radial-gradient(circle at 0 0, rgba(241,228,208,0.025) 0px, rgba(241,228,208,0.025) 1px, transparent 2px, transparent 6px),
+    linear-gradient(160deg, var(--bg-deep) 0%, var(--bg) 55%, #0B0806 100%);
 }
-.bg-scene svg { width: 100%; height: 100%; display: block; }
+.bg-scene svg { position: absolute; opacity: 0.5; }
 
 nav.topnav {
-  background: linear-gradient(var(--leather), var(--leather-dark));
-  padding: 14px 32px;
+  background: rgba(18, 13, 10, 0.9);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 16px 32px;
   display: flex;
   align-items: center;
   gap: 24px;
-  border-bottom: 3px double var(--accent);
+  border-bottom: 1px solid var(--line);
 }
-nav.topnav .brandmark { color: var(--bg); opacity: 0.9; flex-shrink: 0; }
+nav.topnav .brandmark { color: var(--copper); flex-shrink: 0; }
 nav.topnav .wordmark {
-  font-family: 'Rye', serif;
-  color: var(--bg);
-  font-size: 20px;
-  letter-spacing: 0.02em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  font-size: 17px;
   margin-right: auto;
 }
 
 header.page-header {
-  padding: 24px 32px 16px;
+  padding: 40px 32px 24px;
   border-bottom: 1px solid var(--line);
-  background: rgba(244, 234, 211, 0.85);
 }
 header.page-header h1 {
-  font-family: 'Rye', serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
-  font-size: 30px;
-  font-weight: 400;
-  color: var(--accent-dark);
-  letter-spacing: 0.01em;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  text-shadow: 0 0 24px var(--accent-glow);
 }
 header.page-header .tagline {
-  margin: 8px 0 0;
+  margin: 10px 0 0;
   color: var(--ink-soft);
   font-size: 14px;
-  font-style: italic;
+  letter-spacing: 0.01em;
 }
 
 #toolbar {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(244, 234, 211, 0.97);
+  background: rgba(18, 13, 10, 0.88);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
   padding: 16px 32px;
   display: flex;
@@ -81,10 +92,11 @@ header.page-header .tagline {
 .field { position: relative; }
 .field label {
   display: block;
+  font-family: 'Oswald', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--ink-soft);
+  letter-spacing: 0.1em;
+  color: var(--copper);
   margin-bottom: 6px;
 }
 .field input, .field select {
@@ -92,9 +104,9 @@ header.page-header .tagline {
   font-size: 14px;
   padding: 9px 12px;
   border: 1px solid var(--line);
-  border-radius: 3px;
+  border-radius: 2px;
   width: 240px;
-  background: var(--panel);
+  background: var(--panel-solid);
   color: var(--ink);
 }
 .field input:focus, .field select:focus {
@@ -103,12 +115,14 @@ header.page-header .tagline {
   border-color: var(--accent);
 }
 #columns-toggle {
-  font-family: inherit;
-  font-size: 13px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 12px;
   padding: 9px 14px;
   border: 1px solid var(--line);
-  border-radius: 3px;
-  background: var(--panel);
+  border-radius: 2px;
+  background: var(--panel-solid);
   cursor: pointer;
   color: var(--ink);
 }
@@ -118,42 +132,44 @@ header.page-header .tagline {
   top: 100%;
   left: 0;
   margin-top: 4px;
-  background: var(--panel);
+  background: var(--panel-solid);
   border: 1px solid var(--line);
   border-radius: 4px;
   padding: 12px 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
   z-index: 20;
   font-size: 13px;
   white-space: nowrap;
 }
-#columns-panel label { display: block; margin-bottom: 6px; cursor: pointer; font-weight: 400; }
+#columns-panel label { display: block; margin-bottom: 6px; cursor: pointer; font-weight: 400; color: var(--ink); }
 
-main { padding: 24px 32px 60px; overflow-x: auto; }
+main { padding: 28px 32px 60px; overflow-x: auto; }
 
 table.dataTable {
   border-collapse: collapse !important;
   width: 100% !important;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
-  background: var(--panel);
+  background: var(--panel-solid);
+  border: 1px solid var(--line);
 }
 table.dataTable thead th {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--ink-soft);
+  letter-spacing: 0.07em;
+  color: var(--copper);
   text-align: left;
-  padding: 10px 12px;
-  border-bottom: 3px double var(--accent);
+  padding: 12px;
+  border-bottom: 2px solid var(--accent);
+  background: rgba(200, 16, 46, 0.06);
 }
-table.dataTable tbody td { padding: 9px 12px; border-bottom: 1px solid var(--line); }
-table.dataTable tbody tr:hover { background: rgba(166, 25, 46, 0.06); }
+table.dataTable tbody td { padding: 10px 12px; border-bottom: 1px solid var(--line); color: var(--ink); }
+table.dataTable tbody tr:hover { background: rgba(200, 16, 46, 0.08); }
 table.dataTable tbody td a {
   text-decoration: none;
-  color: var(--accent-dark);
+  color: var(--copper);
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 12px;
@@ -175,18 +191,19 @@ table.dataTable tbody td a:hover { text-decoration: underline; }
   padding-top: 12px;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 12px;
   padding: 5px 10px !important;
-  border-radius: 3px !important;
+  border-radius: 2px !important;
   border: 1px solid var(--line) !important;
   margin-left: 4px;
   color: var(--ink) !important;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current {
   background: var(--accent) !important;
-  color: var(--bg) !important;
+  color: var(--ink) !important;
   border-color: var(--accent) !important;
+  box-shadow: 0 0 14px var(--accent-glow);
 }
 
 footer.page-footer {
@@ -196,7 +213,6 @@ footer.page-footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: rgba(244, 234, 211, 0.75);
 }
 footer.page-footer .brandmark { color: var(--ink-soft); opacity: 0.6; flex-shrink: 0; }
 
@@ -207,12 +223,14 @@ footer.page-footer .brandmark { color: var(--ink-soft); opacity: 0.6; flex-shrin
   left: 50%;
   transform: translateX(-50%);
   background: var(--accent);
-  color: var(--bg);
-  font-family: 'Rye', serif;
-  font-size: 15px;
+  color: var(--ink);
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 14px;
   padding: 12px 24px;
-  border-radius: 3px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  border-radius: 2px;
+  box-shadow: 0 8px 30px var(--accent-glow);
   z-index: 50;
 }
 
