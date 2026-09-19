@@ -32,6 +32,12 @@
     font-weight: 800;
     letter-spacing: -0.02em;
   }
+  header .tagline {
+    margin: 6px 0 0;
+    color: var(--ink-soft);
+    font-size: 14px;
+    font-style: italic;
+  }
   #toolbar {
     position: sticky;
     top: 0;
@@ -44,6 +50,7 @@
     align-items: flex-end;
     flex-wrap: wrap;
   }
+  .field { position: relative; }
   .field label {
     display: block;
     font-size: 12px;
@@ -63,6 +70,37 @@
     outline: 2px solid var(--accent);
     outline-offset: 1px;
     border-color: var(--accent);
+  }
+  #columns-toggle {
+    font-family: inherit;
+    font-size: 13px;
+    padding: 9px 14px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  #columns-panel {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 4px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    z-index: 20;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  #columns-panel label {
+    display: block;
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-weight: 400;
   }
 
   main { padding: 24px 32px 60px; overflow-x: auto; }
@@ -135,12 +173,6 @@
     header, #toolbar, main, footer { padding-left: 16px; padding-right: 16px; }
     .field input, .field select { width: 100%; }
     #toolbar { flex-direction: column; align-items: stretch; }
-    table.dataTable td:nth-child(4),
-    table.dataTable th:nth-child(4),
-    table.dataTable td:nth-child(7),
-    table.dataTable th:nth-child(7) {
-      display: none;
-    }
   }
 </style>
 </head>
@@ -148,6 +180,7 @@
 
 <header>
   <h1>Pro athletes by college</h1>
+  <p class="tagline">Before the pros, they were somebody's Saturday hero. Find out where.</p>
 </header>
 
 <div id="toolbar">
@@ -160,6 +193,11 @@
   <div class="field">
     <label for="player-search">Player</label>
     <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
+  </div>
+  <div class="field">
+    <label>&nbsp;</label>
+    <button id="columns-toggle" type="button">⚙ Columns</button>
+    <div id="columns-panel"></div>
   </div>
 </div>
 
@@ -252,15 +290,87 @@
 
       const table = $('#players').DataTable({
         pageLength: 100,
-        dom: 'tip'
+        dom: 'tip',
+        columnDefs: [
+          // Clicking "Next Game" sorts by kickoff time, then groups same-team
+          // players together, then alphabetically by name within that team.
+          { targets: 4, orderData: [4, 2, 0] }
+        ]
       });
 
       $('#college-select').on('change', function() {
+        const query = this.value.toLowerCase();
+        if (query === 'guns up' || query === "wreck 'em" || query === "wreck em") {
+          // handled by player search easter egg below, not here
+        }
         table.column(1).search(this.value ? '^' + $.fn.dataTable.util.escapeRegex(this.value) + '$' : '', true, false).draw();
       });
 
       $('#player-search').on('keyup change', function() {
+        const raw = this.value.trim().toLowerCase();
+        if (raw === 'guns up' || raw === "wreck 'em" || raw === 'wreck em') {
+          alert("Wreck 'Em Tech.");
+          this.value = '';
+          table.column(0).search('').draw();
+          return;
+        }
         table.column(0).search(this.value).draw();
+      });
+
+      // ---- Customizable columns (mobile-friendly, remembers your choice) ----
+      const COLUMNS = [
+        { key: 'team', label: 'Team', index: 2 },
+        { key: 'position', label: 'Position', index: 3 },
+        { key: 'nextgame', label: 'Next Game', index: 4 },
+        { key: 'opponent', label: 'Opponent', index: 5 },
+        { key: 'network', label: 'Network', index: 6 },
+        { key: 'injury', label: 'Injury Status', index: 7 },
+        { key: 'calendar', label: 'Add to Calendar', index: 8 }
+      ];
+      const MOBILE_DEFAULT_HIDDEN = ['position', 'network', 'injury', 'calendar'];
+
+      function loadColumnPrefs() {
+        try {
+          const saved = localStorage.getItem('ffl_column_prefs');
+          if (saved) return JSON.parse(saved);
+        } catch (e) {}
+        const isMobile = window.innerWidth < 700;
+        const prefs = {};
+        COLUMNS.forEach(c => {
+          prefs[c.key] = isMobile ? !MOBILE_DEFAULT_HIDDEN.includes(c.key) : true;
+        });
+        return prefs;
+      }
+
+      function saveColumnPrefs(prefs) {
+        try { localStorage.setItem('ffl_column_prefs', JSON.stringify(prefs)); } catch (e) {}
+      }
+
+      const columnPrefs = loadColumnPrefs();
+      COLUMNS.forEach(c => table.column(c.index).visible(!!columnPrefs[c.key]));
+
+      const panel = document.getElementById('columns-panel');
+      panel.innerHTML = COLUMNS.map(c => `
+        <label><input type="checkbox" data-key="${c.key}" ${columnPrefs[c.key] ? 'checked' : ''}> ${c.label}</label>
+      `).join('');
+
+      panel.querySelectorAll('input[type=checkbox]').forEach(cb => {
+        cb.addEventListener('change', function() {
+          const col = COLUMNS.find(c => c.key === this.dataset.key);
+          columnPrefs[this.dataset.key] = this.checked;
+          table.column(col.index).visible(this.checked);
+          saveColumnPrefs(columnPrefs);
+        });
+      });
+
+      document.getElementById('columns-toggle').addEventListener('click', function(e) {
+        e.stopPropagation();
+        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+      });
+      document.addEventListener('click', function(e) {
+        if (!panel.contains(e.target) && e.target.id !== 'columns-toggle') {
+          panel.style.display = 'none';
+        }
       });
 
       collegeSelect.value = 'Texas Tech';
