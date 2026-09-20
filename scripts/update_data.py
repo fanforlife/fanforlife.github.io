@@ -3,7 +3,7 @@ import json
 import time
 import urllib.request
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
@@ -108,8 +108,6 @@ def build_nfl_rows():
     roster_df = roster_df[roster_df['college'] != '']
     roster_df = roster_df.drop_duplicates(subset=['full_name', 'team', 'college'])
 
-    # Jersey numbers arrive as floats (e.g. 12.0) because of blank rows in the source;
-    # convert to clean integers, leaving blanks as None rather than "nan".
     def clean_jersey(v):
         try:
             return str(int(v))
@@ -135,7 +133,14 @@ def build_nfl_rows():
 
         sched_df['kickoff_et'] = sched_df.apply(make_dt, axis=1)
         now_et = datetime.now(ET)
-        upcoming = sched_df[sched_df['kickoff_et'].apply(lambda x: x is not None and x > now_et)].sort_values('kickoff_et')
+        window_end = now_et + timedelta(days=4)
+
+        # Only games kicking off in the next 4 days — keeps the site focused on
+        # "what's coming up soon" and avoids edge cases from far-future games
+        # or mid-season roster status changes bleeding into the view.
+        upcoming = sched_df[
+            sched_df['kickoff_et'].apply(lambda x: x is not None and now_et < x <= window_end)
+        ].sort_values('kickoff_et')
 
         for _, game in upcoming.iterrows():
             kickoff = game['kickoff_et']
