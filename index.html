@@ -133,7 +133,8 @@
 
   function renderPlayerRow(p) {
     const injuryTag = p.injury_status ? `<span class="injury-tag">${p.injury_status}</span>` : '';
-    return `<div class="player-row"><span class="player-name">${p.full_name ?? ''}</span><span class="player-pos">${p.position ?? ''}</span>${injuryTag}</div>`;
+  const jersey = p.jersey_number ? `#${p.jersey_number}` : '';
+    return `<div class="player-row"><span class="player-name">${p.full_name ?? ''}</span><span class="player-pos">${jersey} ${p.position ?? ''}</span>${injuryTag}</div>`;
   }
 
   let rowIdCounter = 0;
