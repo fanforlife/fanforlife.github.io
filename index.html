@@ -114,6 +114,14 @@
     return { iosHref, androidHref };
   }
 
+  function formatGameChips(iso) {
+    const d = new Date(iso);
+    const dateStr = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+    const central = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' Central';
+    const pacific = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' Pacific';
+    return { dateStr, central, pacific };
+  }
+
   function oppAbbr(opponentStr) { return opponentStr.replace(/^(vs|@)\s*/, '').trim(); }
   function isHome(opponentStr) { return opponentStr.trim().startsWith('vs'); }
 
@@ -133,6 +141,7 @@
     const awayPlayers = game.players[game.away] || [];
     const homePlayers = game.players[game.home] || [];
     const cal = gameCalendarLinks(game);
+    const chips = formatGameChips(game.kickoff_iso);
     return `
       <div class="game-card">
         <div class="game-card-header">
@@ -141,20 +150,25 @@
             <div class="game-vs">at</div>
             <div class="game-team"><span class="team-chip" style="--team-color:${home.color}"></span>${game.home}</div>
           </div>
-          <div class="game-meta-row">
-            <span>${game.next_game ?? ''}</span>
-            <span class="game-network">${game.network ?? 'TBD'}</span>
-            <span class="game-cal"><a href="${cal.iosHref}" download="game.ics">iPhone</a><a href="${cal.androidHref}" target="_blank">Android</a></span>
+          <div class="game-chips">
+            <span class="chip date-chip">${chips.dateStr}</span>
+            <span class="chip time-chip">${chips.central}</span>
+            <span class="chip time-chip">${chips.pacific}</span>
+            <span class="chip network-chip">${game.network ?? 'TBD'}</span>
+          </div>
+          <div class="game-cal-buttons">
+            <a class="cal-btn" href="${cal.iosHref}" download="game.ics">📅 iPhone</a>
+            <a class="cal-btn" href="${cal.androidHref}" target="_blank">📅 Android</a>
           </div>
         </div>
         <div class="game-card-body">
           <div class="team-column">
-            <div class="team-column-header"><span class="team-chip" style="--team-color:${away.color}"></span>${game.away} alumni</div>
-            ${awayPlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}
+            <div class="team-column-header"><span class="team-chip" style="--team-color:${away.color}"></span>${game.away}</div>
+            ${awayPlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni</p>'}
           </div>
           <div class="team-column">
-            <div class="team-column-header"><span class="team-chip" style="--team-color:${home.color}"></span>${game.home} alumni</div>
-            ${homePlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}
+            <div class="team-column-header"><span class="team-chip" style="--team-color:${home.color}"></span>${game.home}</div>
+            ${homePlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni</p>'}
           </div>
         </div>
       </div>
@@ -184,7 +198,6 @@
         const away = isHome(p.opponent) ? opp : p.team;
         gamesMap.set(key, {
           kickoff_iso: p.kickoff_iso,
-          next_game: p.next_game,
           network: p.network,
           home, away,
           players: { [home]: [], [away]: [] }
