@@ -3776,7 +3776,7 @@
     "kickoff_iso": "2026-09-20T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "Questionable",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -7160,7 +7160,7 @@
     "kickoff_iso": "2026-09-20T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -11444,7 +11444,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -18020,7 +18020,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -18200,7 +18200,7 @@
     "kickoff_iso": "2026-09-20T16:25:00-04:00",
     "network": "FOX",
     "opponent": "@ ARI",
-    "injury_status": "Questionable",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -18644,7 +18644,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "vs NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -18656,7 +18656,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "vs NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -23072,7 +23072,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "vs NYG",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -23936,7 +23936,7 @@
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
     "opponent": "vs NYG",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -41368,6 +41368,30 @@
     "team": "LA",
     "position": "OL",
     "college": "Georgia",
+    "next_game": "Mon, Sep 21 @ 7:15pm Central / 5:15pm Pacific",
+    "kickoff_iso": "2026-09-21T20:15:00-04:00",
+    "network": "ESPN",
+    "opponent": "vs NYG",
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Jaxson Moi",
+    "team": "LA",
+    "position": "DL",
+    "college": "Tennessee",
+    "next_game": "Mon, Sep 21 @ 7:15pm Central / 5:15pm Pacific",
+    "kickoff_iso": "2026-09-21T20:15:00-04:00",
+    "network": "ESPN",
+    "opponent": "vs NYG",
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Jaxson Moi",
+    "team": "LA",
+    "position": "DL",
+    "college": "Stanford",
     "next_game": "Mon, Sep 21 @ 7:15pm Central / 5:15pm Pacific",
     "kickoff_iso": "2026-09-21T20:15:00-04:00",
     "network": "ESPN",
