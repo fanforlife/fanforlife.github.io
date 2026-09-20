@@ -22,23 +22,26 @@
 
 <div class="app-section">
   <div id="toolbar">
-    <div class="field">
-      <label for="college-select">College</label>
-      <select id="college-select">
-        <option value="">All Colleges</option>
-      </select>
-    </div>
-    <div class="field">
-      <label for="player-search">Player</label>
-      <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
-    </div>
-    <div class="field">
-      <label>Sort By</label>
-      <div class="sort-toggle">
-        <button id="sort-soonest" class="active" type="button">Soonest</button>
-        <button id="sort-most" type="button">Most Alumni</button>
+    <div class="toolbar-fields">
+      <div class="field">
+        <label for="college-select">College</label>
+        <select id="college-select">
+          <option value="">All Colleges</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="player-search">Player</label>
+        <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
+      </div>
+      <div class="field">
+        <label>Sort By</label>
+        <div class="sort-toggle">
+          <button id="sort-soonest" class="active" type="button">Soonest</button>
+          <button id="sort-most" type="button">Most Alumni</button>
+        </div>
       </div>
     </div>
+    <p class="toolbar-hint">Pick a school above to see its alumni grouped by upcoming game.</p>
   </div>
 
   <main id="main-area">
@@ -99,12 +102,11 @@
   function teamInfo(abbr) { return TEAMS[abbr] || { name: abbr, color: '#888' }; }
 
   function toUtcStamp(date) { return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z'; }
-  function calendarLinks(p) {
-    if (!p.kickoff_iso) return null;
-    const start = new Date(p.kickoff_iso);
+  function gameCalendarLinks(game) {
+    const start = new Date(game.kickoff_iso);
     const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
-    const title = `${p.team ?? ''} ${p.opponent ?? ''}`.trim();
-    const desc = `Broadcast: ${p.network ?? 'TBD'}`;
+    const title = `${game.away} @ ${game.home}`;
+    const desc = `Broadcast: ${game.network ?? 'TBD'}`;
     const startStamp = toUtcStamp(start), endStamp = toUtcStamp(end);
     const ics = ['BEGIN:VCALENDAR','VERSION:2.0','BEGIN:VEVENT',`DTSTART:${startStamp}`,`DTEND:${endStamp}`,`SUMMARY:${title}`,`DESCRIPTION:${desc}`,'END:VEVENT','END:VCALENDAR'].join('\n');
     const iosHref = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
@@ -117,14 +119,11 @@
 
   function renderPlayerRow(p) {
     const injuryTag = p.injury_status ? `<span class="injury-tag">${p.injury_status}</span>` : '';
-    const links = calendarLinks(p);
-    const calCell = links ? `<div class="player-cal"><a href="${links.iosHref}" download="game.ics">iPhone</a><a href="${links.androidHref}" target="_blank">Android</a></div>` : '';
     return `
       <div class="player-row">
         <span class="player-name">${p.full_name ?? ''}</span>
         <span class="player-meta">${p.college ?? ''} · ${p.position ?? ''}</span>
         ${injuryTag}
-        ${calCell}
       </div>
     `;
   }
@@ -133,20 +132,30 @@
     const away = teamInfo(game.away), home = teamInfo(game.home);
     const awayPlayers = game.players[game.away] || [];
     const homePlayers = game.players[game.home] || [];
+    const cal = gameCalendarLinks(game);
     return `
       <div class="game-card">
         <div class="game-card-header">
-          <div class="game-team" style="--team-color:${away.color}"><span class="team-chip"></span>${game.away}</div>
-          <div class="game-meta">
-            <div class="game-vs">VS</div>
-            <div class="game-time">${game.next_game ?? ''}</div>
-            <div class="game-network">${game.network ?? 'TBD'}</div>
+          <div class="matchup-line">
+            <div class="game-team"><span class="team-chip" style="--team-color:${away.color}"></span>${game.away}</div>
+            <div class="game-vs">at</div>
+            <div class="game-team"><span class="team-chip" style="--team-color:${home.color}"></span>${game.home}</div>
           </div>
-          <div class="game-team" style="--team-color:${home.color}">${game.home}<span class="team-chip"></span></div>
+          <div class="game-meta-row">
+            <span>${game.next_game ?? ''}</span>
+            <span class="game-network">${game.network ?? 'TBD'}</span>
+            <span class="game-cal"><a href="${cal.iosHref}" download="game.ics">iPhone</a><a href="${cal.androidHref}" target="_blank">Android</a></span>
+          </div>
         </div>
         <div class="game-card-body">
-          <div class="team-column">${awayPlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}</div>
-          <div class="team-column">${homePlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}</div>
+          <div class="team-column">
+            <div class="team-column-header"><span class="team-chip" style="--team-color:${away.color}"></span>${game.away} alumni</div>
+            ${awayPlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}
+          </div>
+          <div class="team-column">
+            <div class="team-column-header"><span class="team-chip" style="--team-color:${home.color}"></span>${game.home} alumni</div>
+            ${homePlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}
+          </div>
         </div>
       </div>
     `;
