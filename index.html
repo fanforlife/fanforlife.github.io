@@ -9,89 +9,81 @@
 </head>
 <body>
 
-<div class="bg-scene" aria-hidden="true">
-  <svg width="500" height="500" style="right:-60px; top:-40px;" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="#C08A4E" stroke-width="2" opacity="0.5" transform="rotate(18 250 250)">
-      <line x1="80" y1="420" x2="420" y2="80"/>
-      <line x1="130" y1="440" x2="160" y2="410"/>
-      <line x1="170" y1="400" x2="200" y2="370"/>
-      <line x1="210" y1="360" x2="240" y2="330"/>
-      <line x1="250" y1="320" x2="280" y2="290"/>
-      <line x1="290" y1="280" x2="320" y2="250"/>
-      <line x1="330" y1="240" x2="360" y2="210"/>
-    </g>
-  </svg>
+<section class="hero">
+  <div class="hero-bg" id="hero-bg"></div>
+  <div class="hero-content">
+    <h1>FROM CAMPUS<br>TO <span>SUNDAY</span></h1>
+    <p class="hero-sub">Search every pro athlete by the college that made them.</p>
+  </div>
+  <div class="scroll-cue">
+    Scroll
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16m0 0l-6-6m6 6l6-6"/></svg>
+  </div>
+</section>
+
+<div class="app-section">
+  <div id="toolbar">
+    <div class="field">
+      <label for="college-select">College</label>
+      <select id="college-select">
+        <option value="">All Colleges</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="player-search">Player</label>
+      <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
+    </div>
+    <div class="field">
+      <label>&nbsp;</label>
+      <button id="columns-toggle" type="button">⚙ Columns</button>
+      <div id="columns-panel"></div>
+    </div>
+  </div>
+
+  <main id="main-table">
+    <table id="players" class="display">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>College</th>
+          <th>Team</th>
+          <th>Position</th>
+          <th>Next Game</th>
+          <th>Opponent</th>
+          <th>Network</th>
+          <th>Injury Status</th>
+          <th>Add to Calendar</th>
+        </tr>
+      </thead>
+      <tbody id="players-body"></tbody>
+    </table>
+  </main>
+
+  <footer class="page-footer" id="footer-note">Loading data…</footer>
 </div>
 
-<nav class="topnav">
-  <svg class="brandmark" viewBox="0 0 60 60" width="24" height="24" aria-hidden="true">
-    <circle cx="30" cy="30" r="27" fill="none" stroke="currentColor" stroke-width="2.5"/>
-    <path d="M14 22h32M30 22v22" stroke="currentColor" stroke-width="6" stroke-linecap="square" fill="none"/>
-  </svg>
-  <span class="wordmark">Roster Search</span>
-</nav>
-
-<header class="page-header">
-  <h1>Pro athletes by college</h1>
-  <p class="tagline">Your school sent them to the league. Come watch how they're doing.</p>
-</header>
-
-<div id="toolbar">
-  <div class="field">
-    <label for="college-select">College</label>
-    <select id="college-select">
-      <option value="">All Colleges</option>
-    </select>
-  </div>
-  <div class="field">
-    <label for="player-search">Player</label>
-    <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
-  </div>
-  <div class="field">
-    <label>&nbsp;</label>
-    <button id="columns-toggle" type="button">⚙ Columns</button>
-    <div id="columns-panel"></div>
-  </div>
-</div>
-
-<main>
-  <table id="players" class="display">
-    <thead>
-      <tr>
-        <th>Player</th>
-        <th>College</th>
-        <th>Team</th>
-        <th>Position</th>
-        <th>Next Game</th>
-        <th>Opponent</th>
-        <th>Network</th>
-        <th>Injury Status</th>
-        <th>Add to Calendar</th>
-      </tr>
-    </thead>
-    <tbody id="players-body"></tbody>
-  </table>
-</main>
-
-<footer class="page-footer" id="footer-note">
-  <svg class="brandmark" viewBox="0 0 60 60" width="16" height="16" aria-hidden="true">
-    <circle cx="30" cy="30" r="27" fill="none" stroke="currentColor" stroke-width="2.5"/>
-    <path d="M14 22h32M30 22v22" stroke="currentColor" stroke-width="6" stroke-linecap="square" fill="none"/>
-  </svg>
-  Loading data…
-</footer>
-
-<div id="easter-banner"></div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script>
-  function showEasterBanner(text) {
-    const el = document.getElementById('easter-banner');
-    el.textContent = text;
-    el.style.display = 'block';
-    setTimeout(() => { el.style.display = 'none'; }, 3000);
-  }
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.to('#hero-bg', {
+    yPercent: 15,
+    ease: 'none',
+    scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
+  });
+
+  gsap.from('.hero-content', { opacity: 0, y: 30, duration: 1.1, ease: 'power2.out', delay: 0.2 });
+
+  gsap.to('#main-table', {
+    opacity: 1,
+    y: 0,
+    duration: 0.9,
+    ease: 'power2.out',
+    scrollTrigger: { trigger: '#main-table', start: 'top 85%' }
+  });
 
   fetch('players.json')
     .then(response => response.json())
@@ -169,13 +161,6 @@
       });
 
       $('#player-search').on('keyup change', function() {
-        const raw = this.value.trim().toLowerCase();
-        if (raw === 'guns up' || raw === "wreck 'em" || raw === 'wreck em') {
-          showEasterBanner("Guns Up. Wreck 'Em.");
-          this.value = '';
-          table.column(0).search('').draw();
-          return;
-        }
         table.column(0).search(this.value).draw();
       });
 
@@ -242,7 +227,7 @@
     .then(r => r.json())
     .then(d => {
       const dt = new Date(d.updated_at);
-      document.querySelector('#footer-note').lastChild.textContent = ' Data last updated: ' + dt.toLocaleString();
+      document.getElementById('footer-note').textContent = 'Data last updated: ' + dt.toLocaleString();
     })
     .catch(() => {});
 </script>
