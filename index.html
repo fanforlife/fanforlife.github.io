@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Roster Search — Pro Athletes by College</title>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,29 +33,16 @@
       <input type="text" id="player-search" placeholder="e.g. Patrick Mahomes">
     </div>
     <div class="field">
-      <label>&nbsp;</label>
-      <button id="columns-toggle" type="button">⚙ Columns</button>
-      <div id="columns-panel"></div>
+      <label>Sort By</label>
+      <div class="sort-toggle">
+        <button id="sort-soonest" class="active" type="button">Soonest</button>
+        <button id="sort-most" type="button">Most Alumni</button>
+      </div>
     </div>
   </div>
 
-  <main id="main-table">
-    <table id="players" class="display">
-      <thead>
-        <tr>
-          <th>Player</th>
-          <th>College</th>
-          <th>Team</th>
-          <th>Position</th>
-          <th>Next Game</th>
-          <th>Opponent</th>
-          <th>Network</th>
-          <th>Injury Status</th>
-          <th>Add to Calendar</th>
-        </tr>
-      </thead>
-      <tbody id="players-body"></tbody>
-    </table>
+  <main id="main-area">
+    <div class="games-grid" id="games-container"></div>
   </main>
 
   <footer class="page-footer" id="footer-note">Loading data…</footer>
@@ -64,160 +50,196 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script>
   gsap.registerPlugin(ScrollTrigger);
-
   gsap.to('#hero-bg', {
-    yPercent: 15,
-    ease: 'none',
+    yPercent: 15, ease: 'none',
     scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true }
   });
-
   gsap.from('.hero-content', { opacity: 0, y: 30, duration: 1.1, ease: 'power2.out', delay: 0.2 });
-
-  gsap.to('#main-table', {
-    opacity: 1,
-    y: 0,
-    duration: 0.9,
-    ease: 'power2.out',
-    scrollTrigger: { trigger: '#main-table', start: 'top 85%' }
+  gsap.to('#main-area', {
+    opacity: 1, y: 0, duration: 0.9, ease: 'power2.out',
+    scrollTrigger: { trigger: '#main-area', start: 'top 85%' }
   });
 
-  fetch('players.json')
-    .then(response => response.json())
-    .then(players => {
+  const TEAMS = {
+    ARI: { name: 'Arizona Cardinals', color: '#97233F' },
+    ATL: { name: 'Atlanta Falcons', color: '#A71930' },
+    BAL: { name: 'Baltimore Ravens', color: '#241773' },
+    BUF: { name: 'Buffalo Bills', color: '#00338D' },
+    CAR: { name: 'Carolina Panthers', color: '#0085CA' },
+    CHI: { name: 'Chicago Bears', color: '#4169E1' },
+    CIN: { name: 'Cincinnati Bengals', color: '#FB4F14' },
+    CLE: { name: 'Cleveland Browns', color: '#FF6B00' },
+    DAL: { name: 'Dallas Cowboys', color: '#7A9BC4' },
+    DEN: { name: 'Denver Broncos', color: '#FB4F14' },
+    DET: { name: 'Detroit Lions', color: '#0076B6' },
+    GB:  { name: 'Green Bay Packers', color: '#2E7D4F' },
+    HOU: { name: 'Houston Texans', color: '#D6224A' },
+    IND: { name: 'Indianapolis Colts', color: '#3B7DD8' },
+    JAX: { name: 'Jacksonville Jaguars', color: '#00A6A0' },
+    KC:  { name: 'Kansas City Chiefs', color: '#E31837' },
+    LV:  { name: 'Las Vegas Raiders', color: '#A5ACAF' },
+    LAC: { name: 'Los Angeles Chargers', color: '#22A5E0' },
+    LAR: { name: 'Los Angeles Rams', color: '#3161C4' },
+    MIA: { name: 'Miami Dolphins', color: '#00C4CC' },
+    MIN: { name: 'Minnesota Vikings', color: '#8B5CD6' },
+    NE:  { name: 'New England Patriots', color: '#D6224A' },
+    NO:  { name: 'New Orleans Saints', color: '#D3BC8D' },
+    NYG: { name: 'New York Giants', color: '#3B5FCC' },
+    NYJ: { name: 'New York Jets', color: '#2FA878' },
+    PHI: { name: 'Philadelphia Eagles', color: '#2E8B7A' },
+    PIT: { name: 'Pittsburgh Steelers', color: '#FFB612' },
+    SF:  { name: 'San Francisco 49ers', color: '#D6224A' },
+    SEA: { name: 'Seattle Seahawks', color: '#69BE28' },
+    TB:  { name: 'Tampa Bay Buccaneers', color: '#D50A0A' },
+    TEN: { name: 'Tennessee Titans', color: '#4B92DB' },
+    WAS: { name: 'Washington Commanders', color: '#FFB612' }
+  };
+  function teamInfo(abbr) { return TEAMS[abbr] || { name: abbr, color: '#888' }; }
 
-      function toUtcStamp(date) {
-        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  function toUtcStamp(date) { return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z'; }
+  function calendarLinks(p) {
+    if (!p.kickoff_iso) return null;
+    const start = new Date(p.kickoff_iso);
+    const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
+    const title = `${p.team ?? ''} ${p.opponent ?? ''}`.trim();
+    const desc = `Broadcast: ${p.network ?? 'TBD'}`;
+    const startStamp = toUtcStamp(start), endStamp = toUtcStamp(end);
+    const ics = ['BEGIN:VCALENDAR','VERSION:2.0','BEGIN:VEVENT',`DTSTART:${startStamp}`,`DTEND:${endStamp}`,`SUMMARY:${title}`,`DESCRIPTION:${desc}`,'END:VEVENT','END:VCALENDAR'].join('\n');
+    const iosHref = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+    const androidHref = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startStamp}/${endStamp}&details=${encodeURIComponent(desc)}`;
+    return { iosHref, androidHref };
+  }
+
+  function oppAbbr(opponentStr) { return opponentStr.replace(/^(vs|@)\s*/, '').trim(); }
+  function isHome(opponentStr) { return opponentStr.trim().startsWith('vs'); }
+
+  function renderPlayerRow(p) {
+    const injuryTag = p.injury_status ? `<span class="injury-tag">${p.injury_status}</span>` : '';
+    const links = calendarLinks(p);
+    const calCell = links ? `<div class="player-cal"><a href="${links.iosHref}" download="game.ics">iPhone</a><a href="${links.androidHref}" target="_blank">Android</a></div>` : '';
+    return `
+      <div class="player-row">
+        <span class="player-name">${p.full_name ?? ''}</span>
+        <span class="player-meta">${p.college ?? ''} · ${p.position ?? ''}</span>
+        ${injuryTag}
+        ${calCell}
+      </div>
+    `;
+  }
+
+  function renderGameCard(game) {
+    const away = teamInfo(game.away), home = teamInfo(game.home);
+    const awayPlayers = game.players[game.away] || [];
+    const homePlayers = game.players[game.home] || [];
+    return `
+      <div class="game-card">
+        <div class="game-card-header">
+          <div class="game-team" style="--team-color:${away.color}"><span class="team-chip"></span>${game.away}</div>
+          <div class="game-meta">
+            <div class="game-vs">VS</div>
+            <div class="game-time">${game.next_game ?? ''}</div>
+            <div class="game-network">${game.network ?? 'TBD'}</div>
+          </div>
+          <div class="game-team" style="--team-color:${home.color}">${game.home}<span class="team-chip"></span></div>
+        </div>
+        <div class="game-card-body">
+          <div class="team-column">${awayPlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}</div>
+          <div class="team-column">${homePlayers.map(renderPlayerRow).join('') || '<p class="none">No alumni found</p>'}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  let ALL_PLAYERS = [];
+  let sortMode = 'soonest';
+
+  function renderGames() {
+    const collegeFilter = document.getElementById('college-select').value;
+    const playerFilter = document.getElementById('player-search').value.trim().toLowerCase();
+
+    const filtered = ALL_PLAYERS.filter(p => {
+      if (!p.kickoff_iso || !p.opponent) return false;
+      if (collegeFilter && p.college !== collegeFilter) return false;
+      if (playerFilter && !(p.full_name ?? '').toLowerCase().includes(playerFilter)) return false;
+      return true;
+    });
+
+    const gamesMap = new Map();
+    filtered.forEach(p => {
+      const opp = oppAbbr(p.opponent);
+      const key = [p.team, opp].sort().join('_') + '_' + p.kickoff_iso;
+      if (!gamesMap.has(key)) {
+        const home = isHome(p.opponent) ? p.team : opp;
+        const away = isHome(p.opponent) ? opp : p.team;
+        gamesMap.set(key, {
+          kickoff_iso: p.kickoff_iso,
+          next_game: p.next_game,
+          network: p.network,
+          home, away,
+          players: { [home]: [], [away]: [] }
+        });
       }
+      gamesMap.get(key).players[p.team].push(p);
+    });
 
-      function calendarLinks(p) {
-        if (!p.kickoff_iso) return null;
-        const start = new Date(p.kickoff_iso);
-        const end = new Date(start.getTime() + 3 * 60 * 60 * 1000);
-        const title = `${p.team ?? ''} ${p.opponent ?? ''}`.trim();
-        const desc = `Broadcast: ${p.network ?? 'TBD'}`;
-        const startStamp = toUtcStamp(start);
-        const endStamp = toUtcStamp(end);
-
-        const ics = [
-          'BEGIN:VCALENDAR', 'VERSION:2.0', 'BEGIN:VEVENT',
-          `DTSTART:${startStamp}`, `DTEND:${endStamp}`,
-          `SUMMARY:${title}`, `DESCRIPTION:${desc}`,
-          'END:VEVENT', 'END:VCALENDAR'
-        ].join('\n');
-        const iosHref = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
-
-        const androidHref = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startStamp}/${endStamp}&details=${encodeURIComponent(desc)}`;
-
-        return { iosHref, androidHref };
-      }
-
-      const tbody = document.getElementById('players-body');
-      players.forEach(p => {
-        const epoch = p.kickoff_iso ? new Date(p.kickoff_iso).getTime() : Number.MAX_SAFE_INTEGER;
-        const links = calendarLinks(p);
-        const calCell = links
-          ? `<a href="${links.iosHref}" download="game.ics">iPhone</a>
-             <a href="${links.androidHref}" target="_blank">Android</a>`
-          : '';
-        const injuryCell = p.injury_status ? `<span class="injury">${p.injury_status}</span>` : '';
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td>${p.full_name ?? ''}</td>
-          <td>${p.college ?? ''}</td>
-          <td>${p.team ?? ''}</td>
-          <td>${p.position ?? ''}</td>
-          <td data-order="${epoch}">${p.next_game ?? ''}</td>
-          <td>${p.opponent ?? ''}</td>
-          <td>${p.network ?? ''}</td>
-          <td>${injuryCell}</td>
-          <td>${calCell}</td>
-        `;
-        tbody.appendChild(row);
+    let games = Array.from(gamesMap.values());
+    if (sortMode === 'soonest') {
+      games.sort((a, b) => new Date(a.kickoff_iso) - new Date(b.kickoff_iso));
+    } else {
+      games.sort((a, b) => {
+        const countA = Object.values(a.players).flat().length;
+        const countB = Object.values(b.players).flat().length;
+        return countB - countA;
       });
+    }
+
+    const container = document.getElementById('games-container');
+    if (games.length === 0) {
+      container.innerHTML = '<p class="none" style="text-align:center;">No upcoming games match this search.</p>';
+      return;
+    }
+    container.innerHTML = games.map(renderGameCard).join('');
+
+    gsap.utils.toArray('.game-card').forEach((card, i) => {
+      gsap.from(card, {
+        opacity: 0, y: 24, duration: 0.5, delay: i * 0.03, ease: 'power2.out',
+        scrollTrigger: { trigger: card, start: 'top 92%' }
+      });
+    });
+  }
+
+  fetch('players.json')
+    .then(r => r.json())
+    .then(players => {
+      ALL_PLAYERS = players;
 
       const colleges = [...new Set(players.map(p => p.college).filter(Boolean))].sort();
       const collegeSelect = document.getElementById('college-select');
       colleges.forEach(c => {
         const opt = document.createElement('option');
-        opt.value = c;
-        opt.textContent = c;
+        opt.value = c; opt.textContent = c;
         collegeSelect.appendChild(opt);
       });
-
-      const table = $('#players').DataTable({
-        pageLength: 100,
-        dom: 'tip',
-        columnDefs: [
-          { targets: 4, orderData: [4, 2, 0] }
-        ]
-      });
-
-      $('#college-select').on('change', function() {
-        table.column(1).search(this.value ? '^' + $.fn.dataTable.util.escapeRegex(this.value) + '$' : '', true, false).draw();
-      });
-
-      $('#player-search').on('keyup change', function() {
-        table.column(0).search(this.value).draw();
-      });
-
-      const COLUMNS = [
-        { key: 'team', label: 'Team', index: 2 },
-        { key: 'position', label: 'Position', index: 3 },
-        { key: 'nextgame', label: 'Next Game', index: 4 },
-        { key: 'opponent', label: 'Opponent', index: 5 },
-        { key: 'network', label: 'Network', index: 6 },
-        { key: 'injury', label: 'Injury Status', index: 7 },
-        { key: 'calendar', label: 'Add to Calendar', index: 8 }
-      ];
-      const MOBILE_DEFAULT_HIDDEN = ['position', 'network', 'injury', 'calendar'];
-
-      function loadColumnPrefs() {
-        try {
-          const saved = localStorage.getItem('ffl_column_prefs');
-          if (saved) return JSON.parse(saved);
-        } catch (e) {}
-        const isMobile = window.innerWidth < 700;
-        const prefs = {};
-        COLUMNS.forEach(c => {
-          prefs[c.key] = isMobile ? !MOBILE_DEFAULT_HIDDEN.includes(c.key) : true;
-        });
-        return prefs;
-      }
-      function saveColumnPrefs(prefs) {
-        try { localStorage.setItem('ffl_column_prefs', JSON.stringify(prefs)); } catch (e) {}
-      }
-
-      const columnPrefs = loadColumnPrefs();
-      COLUMNS.forEach(c => table.column(c.index).visible(!!columnPrefs[c.key]));
-
-      const panel = document.getElementById('columns-panel');
-      panel.innerHTML = COLUMNS.map(c => `
-        <label><input type="checkbox" data-key="${c.key}" ${columnPrefs[c.key] ? 'checked' : ''}> ${c.label}</label>
-      `).join('');
-      panel.querySelectorAll('input[type=checkbox]').forEach(cb => {
-        cb.addEventListener('change', function() {
-          const col = COLUMNS.find(c => c.key === this.dataset.key);
-          columnPrefs[this.dataset.key] = this.checked;
-          table.column(col.index).visible(this.checked);
-          saveColumnPrefs(columnPrefs);
-        });
-      });
-      document.getElementById('columns-toggle').addEventListener('click', function(e) {
-        e.stopPropagation();
-        panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-      });
-      document.addEventListener('click', function(e) {
-        if (!panel.contains(e.target) && e.target.id !== 'columns-toggle') {
-          panel.style.display = 'none';
-        }
-      });
-
       collegeSelect.value = 'Texas Tech';
-      table.column(1).search('^Texas Tech$', true, false).draw();
+
+      document.getElementById('college-select').addEventListener('change', renderGames);
+      document.getElementById('player-search').addEventListener('keyup', renderGames);
+      document.getElementById('sort-soonest').addEventListener('click', function() {
+        sortMode = 'soonest';
+        this.classList.add('active');
+        document.getElementById('sort-most').classList.remove('active');
+        renderGames();
+      });
+      document.getElementById('sort-most').addEventListener('click', function() {
+        sortMode = 'most';
+        this.classList.add('active');
+        document.getElementById('sort-soonest').classList.remove('active');
+        renderGames();
+      });
+
+      renderGames();
     })
     .catch(err => {
       document.getElementById('footer-note').textContent = 'Could not load player data: ' + err;
