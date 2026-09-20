@@ -101,12 +101,21 @@ def build_nfl_rows():
     if roster_df is None or len(roster_df) == 0:
         roster_df = try_year_roster(current_year - 1)
 
-    roster_df = roster_df[['full_name', 'team', 'position', 'college']].dropna(subset=['full_name'])
+    roster_df = roster_df[['full_name', 'team', 'position', 'college', 'jersey_number']].dropna(subset=['full_name'])
     roster_df['college'] = roster_df['college'].fillna('').astype(str).str.split(';')
     roster_df = roster_df.explode('college')
     roster_df['college'] = roster_df['college'].str.strip()
     roster_df = roster_df[roster_df['college'] != '']
     roster_df = roster_df.drop_duplicates(subset=['full_name', 'team', 'college'])
+
+    # Jersey numbers arrive as floats (e.g. 12.0) because of blank rows in the source;
+    # convert to clean integers, leaving blanks as None rather than "nan".
+    def clean_jersey(v):
+        try:
+            return str(int(v))
+        except (ValueError, TypeError):
+            return None
+    roster_df['jersey_number'] = roster_df['jersey_number'].apply(clean_jersey)
 
     sched_df = load_schedules()
     next_game_by_team = {}
@@ -212,7 +221,7 @@ def build_nba_rows():
         team = (p.get('team') or {}).get('abbreviation')
         rows.append({
             "full_name": full_name, "team": team, "position": p.get('position'),
-            "college": college, "sport": "NBA",
+            "college": college, "sport": "NBA", "jersey_number": None,
             "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
             "injury_status": None
         })
@@ -230,7 +239,7 @@ def build_mlb_rows():
         team = (p.get('team') or {}).get('abbreviation')
         rows.append({
             "full_name": p.get('full_name'), "team": team, "position": p.get('position'),
-            "college": college, "sport": "MLB",
+            "college": college, "sport": "MLB", "jersey_number": None,
             "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
             "injury_status": None
         })
