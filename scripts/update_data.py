@@ -16,6 +16,14 @@ ESPN_ABBR_OVERRIDES = {"LA": "LAR", "WAS": "WSH"}
 def espn_abbr(team):
     return ESPN_ABBR_OVERRIDES.get(team, team)
 
+STATUS_LABELS = {
+    "DEV": "Practice Squad",
+    "RES": "Injured Reserve",
+    "INA": "Inactive",
+}
+# Statuses that mean the player is no longer actually with the team
+DEPARTED_STATUSES = {"CUT", "RET", "EXE"}
+
 # ============ NFL (nflverse) ============
 def try_year_roster(year):
     url = f"https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_{year}.csv"
@@ -26,6 +34,31 @@ def try_year_roster(year):
     except Exception:
         return None
     return None
+
+def load_depth_chart_ranks():
+    """Returns {gsis_id: pos_rank} using the most recent snapshot date available."""
+    current_year = datetime.now().year
+    url = f"https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_{current_year}.csv"
+    try:
+        df = pd.read_csv(url)
+        if len(df) == 0:
+            return {}
+        df['dt'] = pd.to_datetime(df['dt'])
+        latest_dt = df['dt'].max()
+        latest = df[df['dt'] == latest_dt]
+        print(f"Depth chart snapshot date: {latest_dt}, {len(latest)} rows")
+        ranks = {}
+        for _, row in latest.iterrows():
+            gsis = row.get('gsis_id')
+            rank = row.get('pos_rank')
+            if pd.notna(gsis) and pd.notna(rank):
+                # Keep the best (lowest) rank if a player appears more than once
+                if gsis not in ranks or rank < ranks[gsis]:
+                    ranks[gsis] = int(rank)
+        return ranks
+    except Exception as e:
+        print(f"Depth chart data unavailable: {e}")
+        return {}
 
 def load_schedules():
     current_year = datetime.now().year
@@ -101,7 +134,13 @@ def build_nfl_rows():
     if roster_df is None or len(roster_df) == 0:
         roster_df = try_year_roster(current_year - 1)
 
-    roster_df = roster_df[['full_name', 'team', 'position', 'college', 'jersey_number']].dropna(subset=['full_name'])
+    roster_df = roster_df[['full_name', 'team', 'position', 'college', 'jersey_number', 'status', 'gsis_id']].dropna(subset=['full_name'])
+
+    # Drop players no longer actually with the team (cut, retired, exempt list)
+    before_count = len(roster_df)
+    roster_df = roster_df[~roster_df['status'].isin(DEPARTED_STATUSES)]
+    print(f"Filtered out {before_count - len(roster_df)} departed players (cut/retired/exempt)")
+
     roster_df['college'] = roster_df['college'].fillna('').astype(str).str.split(';')
     roster_df = roster_df.explode('college')
     roster_df['college'] = roster_df['college'].str.strip()
@@ -114,6 +153,27 @@ def build_nfl_rows():
         except (ValueError, TypeError):
             return None
     roster_df['jersey_number'] = roster_df['jersey_number'].apply(clean_jersey)
+
+    depth_ranks = load_depth_chart_ranks()
+
+    def roster_role(row):
+        status = row['status']
+        if status in STATUS_LABELS:
+            return STATUS_LABELS[status]
+        if status == 'ACT':
+            rank = depth_ranks.get(row['gsis_id'])
+            if rank == 1:
+                return 'Starter'
+            elif rank == 2:
+                return '2nd String'
+            elif rank == 3:
+                return '3rd String'
+            elif rank is not None and rank >= 4:
+                return 'Reserve'
+            return 'Active Roster'
+        return status
+
+    roster_df['roster_role'] = roster_df.apply(roster_role, axis=1)
 
     sched_df = load_schedules()
     next_game_by_team = {}
@@ -135,9 +195,6 @@ def build_nfl_rows():
         now_et = datetime.now(ET)
         window_end = now_et + timedelta(days=4)
 
-        # Only games kicking off in the next 4 days — keeps the site focused on
-        # "what's coming up soon" and avoids edge cases from far-future games
-        # or mid-season roster status changes bleeding into the view.
         upcoming = sched_df[
             sched_df['kickoff_et'].apply(lambda x: x is not None and now_et < x <= window_end)
         ].sort_values('kickoff_et')
@@ -185,6 +242,7 @@ def build_nfl_rows():
     injury_status_by_player = build_injury_status_by_player()
     roster_df['injury_status'] = roster_df['full_name'].map(injury_status_by_player).fillna('')
 
+    roster_df = roster_df.drop(columns=['status', 'gsis_id'])
     roster_df['sport'] = 'NFL'
     roster_df = roster_df.astype(object).where(pd.notnull(roster_df), None)
     return roster_df.to_dict(orient='records')
@@ -226,7 +284,7 @@ def build_nba_rows():
         team = (p.get('team') or {}).get('abbreviation')
         rows.append({
             "full_name": full_name, "team": team, "position": p.get('position'),
-            "college": college, "sport": "NBA", "jersey_number": None,
+            "college": college, "sport": "NBA", "jersey_number": None, "roster_role": None,
             "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
             "injury_status": None
         })
@@ -244,7 +302,7 @@ def build_mlb_rows():
         team = (p.get('team') or {}).get('abbreviation')
         rows.append({
             "full_name": p.get('full_name'), "team": team, "position": p.get('position'),
-            "college": college, "sport": "MLB", "jersey_number": None,
+            "college": college, "sport": "MLB", "jersey_number": None, "roster_role": None,
             "next_game": None, "kickoff_iso": None, "network": None, "opponent": None,
             "injury_status": None
         })
