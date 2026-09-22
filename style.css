@@ -65,6 +65,11 @@ body {
 }
 .toolbar-fields { display: flex; gap: 16px; align-items: flex-end; flex-wrap: wrap; }
 .toolbar-hint { font-size: 11px; color: var(--ink-soft); margin: 8px 0 0; }
+.data-note {
+  font-size: 11px; color: var(--ink-soft); margin: 4px 0 0;
+  display: flex; align-items: center; gap: 6px;
+}
+.data-note .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
 .field { position: relative; }
 .field label {
   display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em;
