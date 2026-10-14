@@ -360,7 +360,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -472,7 +472,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -509,7 +509,7 @@
     "position": "OL",
     "college": "Oklahoma",
     "jersey_number": "65",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -523,7 +523,7 @@
     "position": "OL",
     "college": "Kilgore",
     "jersey_number": "65",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -710,7 +710,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -724,7 +724,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -748,10 +748,10 @@
     "college": "South Carolina",
     "jersey_number": "90",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -902,10 +902,10 @@
     "college": "LSU",
     "jersey_number": "55",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -920,7 +920,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -934,7 +934,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -962,7 +962,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -1084,10 +1084,10 @@
     "college": "Florida",
     "jersey_number": "77",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1098,10 +1098,10 @@
     "college": "Georgia Military",
     "jersey_number": "77",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1126,10 +1126,10 @@
     "college": "Nebraska",
     "jersey_number": "20",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1154,10 +1154,10 @@
     "college": "Oregon",
     "jersey_number": "91",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1210,10 +1210,10 @@
     "college": "Florida State",
     "jersey_number": "97",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1228,7 +1228,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -1344,20 +1344,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Chris Moore",
-    "team": "BAL",
-    "position": "WR",
-    "college": "Cincinnati",
-    "jersey_number": "17",
-    "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Miles Killebrew",
     "team": "TB",
     "position": "DB",
@@ -1378,6 +1364,34 @@
     "college": "Clemson",
     "jersey_number": "98",
     "roster_role": "Starter",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Elandon Roberts",
+    "team": "PIT",
+    "position": "LB",
+    "college": "Houston",
+    "jersey_number": "50",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Elandon Roberts",
+    "team": "PIT",
+    "position": "LB",
+    "college": "Morgan State",
+    "jersey_number": "50",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -1490,10 +1504,10 @@
     "college": "UCLA",
     "jersey_number": "15",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1518,10 +1532,10 @@
     "college": "Louisville",
     "jersey_number": "98",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -1587,7 +1601,7 @@
     "position": "DB",
     "college": "LSU",
     "jersey_number": "27",
-    "roster_role": "2nd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -1686,11 +1700,11 @@
     "college": "Minnesota",
     "jersey_number": "29",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Doubtful",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -1746,7 +1760,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -1872,7 +1886,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2068,7 +2082,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2218,10 +2232,10 @@
     "college": "Southern Mississippi",
     "jersey_number": "14",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -2278,7 +2292,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2292,7 +2306,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2343,7 +2357,7 @@
     "position": "TE",
     "college": "Oregon",
     "jersey_number": "49",
-    "roster_role": "Practice Squad",
+    "roster_role": "Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -2516,7 +2530,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2708,10 +2722,10 @@
     "college": "Wisconsin",
     "jersey_number": "23",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -2950,7 +2964,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2964,7 +2978,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -2978,7 +2992,21 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Dawuane Smoot",
+    "team": "NYG",
+    "position": "DL",
+    "college": "Illinois",
+    "jersey_number": "98",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3058,10 +3086,10 @@
     "college": "Michigan",
     "jersey_number": "2",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3076,7 +3104,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3104,7 +3132,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3118,7 +3146,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3160,7 +3188,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3212,10 +3240,10 @@
     "college": "Central Arkansas",
     "jersey_number": "36",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3258,7 +3286,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3482,7 +3510,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3492,10 +3520,10 @@
     "college": "Central Arkansas",
     "jersey_number": "11",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3632,11 +3660,11 @@
     "college": "North Carolina",
     "jersey_number": "29",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3650,7 +3678,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -3786,10 +3814,10 @@
     "college": "Stanford",
     "jersey_number": "86",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3836,6 +3864,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Justin Watson",
+    "team": "KC",
+    "position": "WR",
+    "college": "Penn",
+    "jersey_number": "84",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Siran Neal",
     "team": "SF",
     "position": "DB",
@@ -3870,10 +3912,10 @@
     "college": "Virginia Tech",
     "jersey_number": "75",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3898,10 +3940,10 @@
     "college": "Yale",
     "jersey_number": "23",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3954,10 +3996,10 @@
     "college": "Mississippi State",
     "jersey_number": "9",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -3996,10 +4038,10 @@
     "college": "Sioux Falls",
     "jersey_number": "47",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -4010,10 +4052,10 @@
     "college": "West Virginia State",
     "jersey_number": "47",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -4037,7 +4079,7 @@
     "position": "WR",
     "college": "Vanderbilt",
     "jersey_number": "18",
-    "roster_role": "Reserve",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -4066,10 +4108,10 @@
     "college": "SMU",
     "jersey_number": "63",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -4098,7 +4140,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4112,7 +4154,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4192,10 +4234,10 @@
     "college": "UCLA",
     "jersey_number": "93",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -4434,7 +4476,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4504,7 +4546,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4532,7 +4574,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4640,10 +4682,10 @@
     "college": "Louisville",
     "jersey_number": "79",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -4658,7 +4700,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4672,7 +4714,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4724,11 +4766,11 @@
     "college": "Auburn",
     "jersey_number": "71",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4798,7 +4840,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4826,7 +4868,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -4840,7 +4882,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -5004,10 +5046,10 @@
     "college": "N.C. State",
     "jersey_number": "3",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5116,10 +5158,10 @@
     "college": "LSU",
     "jersey_number": "87",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5144,10 +5186,10 @@
     "college": "Tarleton State",
     "jersey_number": "45",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5176,7 +5218,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -5204,7 +5246,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -5270,10 +5312,10 @@
     "college": "Notre Dame",
     "jersey_number": "69",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5284,10 +5326,10 @@
     "college": "California",
     "jersey_number": "65",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5410,10 +5452,10 @@
     "college": "Florida Atlantic",
     "jersey_number": "0",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5540,7 +5582,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -5606,10 +5648,10 @@
     "college": "Hawaii",
     "jersey_number": "31",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -5932,7 +5974,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6016,7 +6058,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6128,7 +6170,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6268,7 +6310,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6370,20 +6412,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Troy Reeder",
-    "team": "NYJ",
-    "position": "LB",
-    "college": "Delaware",
-    "jersey_number": "50",
-    "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Chris Lindstrom",
     "team": "ATL",
     "position": "OL",
@@ -6422,7 +6450,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6450,7 +6478,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6474,10 +6502,10 @@
     "college": "Kentucky",
     "jersey_number": "41",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -6529,7 +6557,7 @@
     "position": "DL",
     "college": "Mississippi State",
     "jersey_number": "98",
-    "roster_role": "Starter",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -6543,7 +6571,7 @@
     "position": "DL",
     "college": "Copiah-Lincoln Junior College",
     "jersey_number": "98",
-    "roster_role": "Starter",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -6557,7 +6585,7 @@
     "position": "DL",
     "college": "Michigan State",
     "jersey_number": "98",
-    "roster_role": "Starter",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -6576,7 +6604,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6590,7 +6618,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6604,7 +6632,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6683,7 +6711,7 @@
     "position": "LB",
     "college": "Utah",
     "jersey_number": "50",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -6730,7 +6758,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6782,10 +6810,10 @@
     "college": "Iowa State",
     "jersey_number": "32",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -6860,6 +6888,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Germaine Pratt",
+    "team": "IND",
+    "position": "LB",
+    "college": "N.C. State",
+    "jersey_number": "53",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Chuma Edoga",
     "team": "BAL",
     "position": "OL",
@@ -6884,7 +6926,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6898,7 +6940,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -6996,7 +7038,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7038,6 +7080,20 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Jacob Bobenmoyer",
+    "team": "JAX",
+    "position": "LS",
+    "college": "Northern Colorado",
+    "jersey_number": "50",
+    "roster_role": "Practice Squad",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -7104,10 +7160,10 @@
     "college": "Baylor",
     "jersey_number": "46",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -7406,20 +7462,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Cam Gill",
-    "team": "CAR",
-    "position": "LB",
-    "college": "Wagner",
-    "jersey_number": "49",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Broderick Washington",
     "team": "BAL",
     "position": "DL",
@@ -7481,7 +7523,7 @@
     "position": "OL",
     "college": "Rice",
     "jersey_number": "51",
-    "roster_role": "Active Roster",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -7495,7 +7537,7 @@
     "position": "OL",
     "college": "North Carolina Central",
     "jersey_number": "51",
-    "roster_role": "Active Roster",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -7509,7 +7551,7 @@
     "position": "DB",
     "college": "Northern Arizona",
     "jersey_number": "30",
-    "roster_role": "3rd String",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -7546,20 +7588,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "James Proche",
-    "team": "CLE",
-    "position": "WR",
-    "college": "SMU",
-    "jersey_number": "80",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Rico Dowdle",
     "team": "PIT",
     "position": "RB",
@@ -7570,7 +7598,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7696,7 +7724,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7724,7 +7752,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7864,7 +7892,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7878,7 +7906,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7892,7 +7920,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -7944,10 +7972,10 @@
     "college": "Virginia",
     "jersey_number": "34",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -8004,7 +8032,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -8018,7 +8046,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -8112,10 +8140,10 @@
     "college": "Ohio State",
     "jersey_number": "52",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -8214,7 +8242,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -8237,7 +8265,7 @@
     "position": "LB",
     "college": "Ohio State",
     "jersey_number": "54",
-    "roster_role": "Practice Squad",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -8522,7 +8550,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -8560,10 +8588,10 @@
     "college": "Boise State",
     "jersey_number": "76",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -8588,20 +8616,6 @@
     "college": "Texas",
     "jersey_number": "81",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Josiah Deguara",
-    "team": "PHI",
-    "position": "TE",
-    "college": "Cincinnati",
-    "jersey_number": "45",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -8946,6 +8960,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Michael Danna",
+    "team": "BUF",
+    "position": "LB",
+    "college": "Michigan",
+    "jersey_number": "51",
+    "roster_role": "3rd String",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Alohi Gilman",
     "team": "KC",
     "position": "DB",
@@ -9180,7 +9208,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -9194,7 +9222,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -9338,20 +9366,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Tyler Johnson",
-    "team": "NYJ",
-    "position": "WR",
-    "college": "Minnesota",
-    "jersey_number": "83",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Justin Strnad",
     "team": "DEN",
     "position": "LB",
@@ -9386,10 +9400,10 @@
     "college": "Oklahoma",
     "jersey_number": "50",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -9498,10 +9512,10 @@
     "college": "Southern Mississippi",
     "jersey_number": "13",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -9544,7 +9558,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -9628,7 +9642,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Doubtful",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -9652,10 +9666,10 @@
     "college": "Michigan",
     "jersey_number": "12",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -9680,10 +9694,10 @@
     "college": "Miami",
     "jersey_number": "9",
     "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -9694,20 +9708,6 @@
     "college": "Western Michigan",
     "jersey_number": "77",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Shaun Wade",
-    "team": "PHI",
-    "position": "DB",
-    "college": "Ohio State",
-    "jersey_number": "30",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -9806,10 +9806,10 @@
     "college": "Bowling Green",
     "jersey_number": "80",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -9866,7 +9866,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10034,7 +10034,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10184,10 +10184,10 @@
     "college": "Wisconsin",
     "jersey_number": "70",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -10310,10 +10310,10 @@
     "college": "Houston Christian University",
     "jersey_number": "53",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -10398,7 +10398,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10510,7 +10510,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10562,10 +10562,10 @@
     "college": "Rice",
     "jersey_number": "81",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -10762,7 +10762,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "vs SEA",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10776,7 +10776,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10790,7 +10790,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -10842,10 +10842,10 @@
     "college": "Ohio State",
     "jersey_number": "72",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -10954,10 +10954,10 @@
     "college": "Stanford",
     "jersey_number": "10",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -10972,7 +10972,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11023,7 +11023,7 @@
     "position": "DB",
     "college": "Central Arkansas",
     "jersey_number": "38",
-    "roster_role": "Active Roster",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -11084,7 +11084,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11373,12 +11373,12 @@
     "position": "OL",
     "college": "Oklahoma State",
     "jersey_number": "78",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11500,10 +11500,10 @@
     "college": "Clemson",
     "jersey_number": "16",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -11555,11 +11555,11 @@
     "position": "OL",
     "college": "Stanford",
     "jersey_number": "72",
-    "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "roster_role": "Starter",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -11616,7 +11616,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11630,7 +11630,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11682,10 +11682,10 @@
     "college": "Notre Dame",
     "jersey_number": "73",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -11742,7 +11742,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11770,7 +11770,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11910,7 +11910,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -11980,7 +11980,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Doubtful",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12022,7 +12022,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12186,10 +12186,10 @@
     "college": "Miami (Ohio)",
     "jersey_number": "94",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -12204,7 +12204,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12326,11 +12326,11 @@
     "college": "Mississippi",
     "jersey_number": "36",
     "roster_role": "Active Roster",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Out",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12396,10 +12396,10 @@
     "college": "Middle Tennessee State",
     "jersey_number": "6",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -12493,12 +12493,12 @@
     "position": "WR",
     "college": "Indiana PA,  University of",
     "jersey_number": "85",
-    "roster_role": "Injured Reserve",
+    "roster_role": "Reserve",
     "next_game": "Thu, Oct 15 @ 7:15pm Central / 5:15pm Pacific",
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12507,12 +12507,12 @@
     "position": "WR",
     "college": "Penn State",
     "jersey_number": "85",
-    "roster_role": "Injured Reserve",
+    "roster_role": "Reserve",
     "next_game": "Thu, Oct 15 @ 7:15pm Central / 5:15pm Pacific",
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12596,7 +12596,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12610,7 +12610,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12788,10 +12788,10 @@
     "college": "Georgia",
     "jersey_number": "44",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -12816,10 +12816,10 @@
     "college": "LSU",
     "jersey_number": "24",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -12890,7 +12890,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12918,7 +12918,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -12942,10 +12942,10 @@
     "college": "Baylor",
     "jersey_number": "5",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -13086,7 +13086,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -13464,7 +13464,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -13506,7 +13506,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -13642,10 +13642,10 @@
     "college": "Arkansas",
     "jersey_number": "1",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -13768,10 +13768,10 @@
     "college": "Florida Atlantic",
     "jersey_number": "88",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -13916,20 +13916,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Cal Adomitis",
-    "team": "NO",
-    "position": "LS",
-    "college": "Pittsburgh",
-    "jersey_number": "46",
-    "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Ben Brown",
     "team": "NE",
     "position": "OL",
@@ -14020,10 +14006,10 @@
     "college": "Illinois",
     "jersey_number": "35",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -14514,7 +14500,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -14538,10 +14524,10 @@
     "college": "Iowa State",
     "jersey_number": "33",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -14566,10 +14552,10 @@
     "college": "Buffalo",
     "jersey_number": "20",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -14580,10 +14566,10 @@
     "college": "Texas Tech",
     "jersey_number": "20",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -14766,34 +14752,6 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Velus Jones Jr.",
-    "team": "SEA",
-    "position": "RB",
-    "college": "Tennessee",
-    "jersey_number": "33",
-    "roster_role": "3rd String",
-    "next_game": "Thu, Oct 15 @ 7:15pm Central / 5:15pm Pacific",
-    "kickoff_iso": "2026-10-15T20:15:00-04:00",
-    "network": "Prime Video",
-    "opponent": "@ DEN",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Velus Jones Jr.",
-    "team": "SEA",
-    "position": "RB",
-    "college": "USC",
-    "jersey_number": "33",
-    "roster_role": "3rd String",
-    "next_game": "Thu, Oct 15 @ 7:15pm Central / 5:15pm Pacific",
-    "kickoff_iso": "2026-10-15T20:15:00-04:00",
-    "network": "Prime Video",
-    "opponent": "@ DEN",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -15014,10 +14972,10 @@
     "college": "Wyoming",
     "jersey_number": "49",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -15256,7 +15214,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15326,7 +15284,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15354,7 +15312,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15391,7 +15349,7 @@
     "position": "DL",
     "college": "Montana State",
     "jersey_number": "92",
-    "roster_role": "3rd String",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -15405,7 +15363,7 @@
     "position": "DB",
     "college": "Kansas State",
     "jersey_number": "22",
-    "roster_role": "3rd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -15419,6 +15377,20 @@
     "position": "OL",
     "college": "Michigan State",
     "jersey_number": "68",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Pepe Williams",
+    "team": "LA",
+    "position": "DB",
+    "college": "Houston",
+    "jersey_number": "28",
     "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
@@ -15494,7 +15466,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15508,7 +15480,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15573,7 +15545,7 @@
     "position": "DL",
     "college": "Alabama",
     "jersey_number": "72",
-    "roster_role": "3rd String",
+    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -15592,7 +15564,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15643,7 +15615,7 @@
     "position": "WR",
     "college": "Baylor",
     "jersey_number": "2",
-    "roster_role": "3rd String",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -15704,7 +15676,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15718,7 +15690,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15784,10 +15756,10 @@
     "college": "Minnesota",
     "jersey_number": "68",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -15802,7 +15774,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -15868,10 +15840,10 @@
     "college": "Houston",
     "jersey_number": "96",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -15924,11 +15896,11 @@
     "college": "LSU",
     "jersey_number": "69",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16138,7 +16110,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16208,7 +16180,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16264,7 +16236,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16376,7 +16348,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16693,7 +16665,7 @@
     "position": "TE",
     "college": "Georgia Tech",
     "jersey_number": "84",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -16707,7 +16679,7 @@
     "position": "TE",
     "college": "South Carolina",
     "jersey_number": "84",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -16721,7 +16693,7 @@
     "position": "TE",
     "college": "St. Francis PA",
     "jersey_number": "84",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -16819,7 +16791,7 @@
     "position": "LB",
     "college": "Indiana",
     "jersey_number": "45",
-    "roster_role": "Practice Squad",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -16866,7 +16838,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -16992,7 +16964,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17132,7 +17104,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "vs SEA",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17216,7 +17188,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17394,10 +17366,10 @@
     "college": "Florida",
     "jersey_number": "51",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17538,7 +17510,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17589,7 +17561,7 @@
     "position": "DB",
     "college": "Florida State",
     "jersey_number": "34",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -17716,10 +17688,10 @@
     "college": "Texas A&M",
     "jersey_number": "6",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17758,10 +17730,10 @@
     "college": "Alabama",
     "jersey_number": "39",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17772,10 +17744,10 @@
     "college": "Tennessee",
     "jersey_number": "39",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17804,7 +17776,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17828,10 +17800,10 @@
     "college": "Penn State",
     "jersey_number": "11",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17842,10 +17814,10 @@
     "college": "LSU",
     "jersey_number": "14",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17898,10 +17870,10 @@
     "college": "Kentucky",
     "jersey_number": "24",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -17944,7 +17916,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -17968,10 +17940,10 @@
     "college": "Iowa State",
     "jersey_number": "19",
     "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18024,10 +17996,10 @@
     "college": "Kansas State",
     "jersey_number": "31",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18228,20 +18200,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Alex Austin",
-    "team": "DAL",
-    "position": "DB",
-    "college": "Oregon State",
-    "jersey_number": "38",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Ronnie Bell",
     "team": "LV",
     "position": "WR",
@@ -18434,7 +18392,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -18448,7 +18406,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -18500,6 +18458,20 @@
     "college": "North Greenville College",
     "jersey_number": "30",
     "roster_role": "Injured Reserve",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Emari Demercado",
+    "team": "DAL",
+    "position": "RB",
+    "college": "TCU",
+    "jersey_number": "31",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -18570,10 +18542,10 @@
     "college": "LSU",
     "jersey_number": "95",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18584,10 +18556,10 @@
     "college": "Garden City CC",
     "jersey_number": "95",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18598,10 +18570,10 @@
     "college": "Arizona Western",
     "jersey_number": "95",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18612,10 +18584,10 @@
     "college": "Auburn",
     "jersey_number": "78",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -18933,7 +18905,7 @@
     "position": "RB",
     "college": "Youngstown State",
     "jersey_number": "38",
-    "roster_role": "3rd String",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -19073,11 +19045,11 @@
     "position": "DB",
     "college": "Iowa",
     "jersey_number": "26",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "roster_role": "2nd String",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -19087,7 +19059,7 @@
     "position": "WR",
     "college": "Furman",
     "jersey_number": "84",
-    "roster_role": "Reserve",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -19144,20 +19116,6 @@
     "college": "Saginaw Valley State",
     "jersey_number": "38",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Anthony Kendall",
-    "team": "BUF",
-    "position": "DB",
-    "college": "Baldwin Wallace College",
-    "jersey_number": "30",
-    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -19236,6 +19194,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "D'Shawn Jamison",
+    "team": "NE",
+    "position": "DB",
+    "college": "Texas",
+    "jersey_number": "27",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Shaka Heyward",
     "team": "MIA",
     "position": "LB",
@@ -19256,34 +19228,6 @@
     "college": "East Tennessee State",
     "jersey_number": "25",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Blake Grupe",
-    "team": "NYJ",
-    "position": "K",
-    "college": "Notre Dame",
-    "jersey_number": "39",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Blake Grupe",
-    "team": "NYJ",
-    "position": "K",
-    "college": "Arkansas State",
-    "jersey_number": "39",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -19367,11 +19311,11 @@
     "position": "OL",
     "college": "Oklahoma",
     "jersey_number": "77",
-    "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "roster_role": "Injured Reserve",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -19382,10 +19326,10 @@
     "college": "Penn State",
     "jersey_number": "85",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -19522,11 +19466,11 @@
     "college": "Houston",
     "jersey_number": "1",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Out",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -19536,11 +19480,11 @@
     "college": "Independence Comm. College",
     "jersey_number": "1",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Out",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -19550,11 +19494,11 @@
     "college": "Alabama A&M",
     "jersey_number": "1",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Out",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -19680,7 +19624,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -19694,7 +19638,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -19872,10 +19816,10 @@
     "college": "TCU",
     "jersey_number": "92",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -19984,10 +19928,10 @@
     "college": "Troy",
     "jersey_number": "60",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -20114,7 +20058,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20166,48 +20110,6 @@
     "college": "North Dakota State",
     "jersey_number": "32",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Trey Palmer",
-    "team": "NO",
-    "position": "WR",
-    "college": "Nebraska",
-    "jersey_number": "16",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Trey Palmer",
-    "team": "NO",
-    "position": "WR",
-    "college": "LSU",
-    "jersey_number": "16",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Jose Ramirez",
-    "team": "NE",
-    "position": "LB",
-    "college": "Eastern Michigan",
-    "jersey_number": "43",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -20282,7 +20184,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20310,7 +20212,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20530,10 +20432,10 @@
     "college": "Alabama",
     "jersey_number": "51",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -20674,7 +20576,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20688,7 +20590,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20772,7 +20674,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20880,10 +20782,10 @@
     "college": "LSU",
     "jersey_number": "56",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -20936,10 +20838,10 @@
     "college": "Ohio State",
     "jersey_number": "7",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -20968,7 +20870,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -20982,7 +20884,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -21472,7 +21374,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -21528,7 +21430,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -21542,7 +21444,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -21776,10 +21678,10 @@
     "college": "Georgia",
     "jersey_number": "3",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -21930,10 +21832,10 @@
     "college": "Florida State",
     "jersey_number": "4",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -21944,10 +21846,10 @@
     "college": "Mississippi State",
     "jersey_number": "4",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22008,6 +21910,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Decamerion Richardson",
+    "team": "NO",
+    "position": "DB",
+    "college": "Mississippi State",
+    "jersey_number": "25",
+    "roster_role": "2nd String",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Mason McCormick",
     "team": "PIT",
     "position": "OL",
@@ -22028,10 +21944,10 @@
     "college": "Ohio State",
     "jersey_number": "8",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22261,11 +22177,11 @@
   },
   {
     "full_name": "Audric Estim\u00e9",
-    "team": "MIN",
+    "team": "CLE",
     "position": "RB",
     "college": "Notre Dame",
     "jersey_number": "30",
-    "roster_role": "Practice Squad",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -22354,7 +22270,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -22522,7 +22438,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -22602,10 +22518,10 @@
     "college": "Oregon",
     "jersey_number": "56",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22700,10 +22616,10 @@
     "college": "Mississippi State",
     "jersey_number": "95",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22728,10 +22644,10 @@
     "college": "Louisville",
     "jersey_number": "25",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22742,10 +22658,10 @@
     "college": "Syracuse",
     "jersey_number": "25",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22798,10 +22714,10 @@
     "college": "Arkansas",
     "jersey_number": "39",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22882,10 +22798,10 @@
     "college": "Miami",
     "jersey_number": "28",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22896,10 +22812,10 @@
     "college": "Oklahoma",
     "jersey_number": "28",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -22928,7 +22844,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -22952,10 +22868,10 @@
     "college": "Louisiana-Lafayette",
     "jersey_number": "78",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23008,10 +22924,10 @@
     "college": "USC",
     "jersey_number": "50",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23022,10 +22938,10 @@
     "college": "Wyoming",
     "jersey_number": "50",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23035,7 +22951,7 @@
     "position": "LB",
     "college": "Miami",
     "jersey_number": "52",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -23274,10 +23190,10 @@
     "college": "Kentucky",
     "jersey_number": "83",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23315,7 +23231,7 @@
     "position": "DL",
     "college": "James Madison",
     "jersey_number": "59",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -23329,7 +23245,7 @@
     "position": "DL",
     "college": "Rutgers",
     "jersey_number": "59",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -23418,7 +23334,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -23484,20 +23400,6 @@
     "college": "Bryant",
     "jersey_number": "54",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Harrison Mevis",
-    "team": "LA",
-    "position": "K",
-    "college": "Missouri",
-    "jersey_number": "92",
-    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -23624,10 +23526,10 @@
     "college": "South Alabama",
     "jersey_number": "10",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23638,10 +23540,10 @@
     "college": "Toledo",
     "jersey_number": "10",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -23932,10 +23834,10 @@
     "college": "North Carolina",
     "jersey_number": "44",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -24146,7 +24048,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -24258,7 +24160,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -24272,7 +24174,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -24444,20 +24346,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Jayden Price",
-    "team": "NO",
-    "position": "DB",
-    "college": "North Dakota State",
-    "jersey_number": "38",
-    "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "JC Latham",
     "team": "TEN",
     "position": "OL",
@@ -24506,10 +24394,10 @@
     "college": "Clemson",
     "jersey_number": "99",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -24766,6 +24654,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Devin Culp",
+    "team": "CLE",
+    "position": "TE",
+    "college": "Washington",
+    "jersey_number": "82",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "KT Leveston",
     "team": "CLE",
     "position": "OL",
@@ -24818,7 +24720,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -24832,7 +24734,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -24846,7 +24748,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -25168,7 +25070,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -25182,7 +25084,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -25364,7 +25266,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Doubtful",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -25738,10 +25640,10 @@
     "college": "USC",
     "jersey_number": "2",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -25765,7 +25667,7 @@
     "position": "DL",
     "college": "Kansas",
     "jersey_number": "94",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -25779,7 +25681,7 @@
     "position": "DL",
     "college": "Minnesota",
     "jersey_number": "94",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -25920,10 +25822,10 @@
     "college": "Ohio State",
     "jersey_number": "18",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -26018,11 +25920,11 @@
     "college": "Notre Dame",
     "jersey_number": "57",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26218,7 +26120,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26442,7 +26344,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26456,7 +26358,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26466,10 +26368,10 @@
     "college": "LSU",
     "jersey_number": "7",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -26498,7 +26400,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26526,7 +26428,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26577,20 +26479,6 @@
     "position": "WR",
     "college": "Michigan State",
     "jersey_number": "0",
-    "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Chris Braswell",
-    "team": "HOU",
-    "position": "LB",
-    "college": "Alabama",
-    "jersey_number": "53",
     "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
@@ -26764,7 +26652,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26834,7 +26722,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -26848,7 +26736,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -27020,34 +26908,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Jamie Sheriff",
-    "team": "LA",
-    "position": "LB",
-    "college": "South Alabama",
-    "jersey_number": "51",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Jamie Sheriff",
-    "team": "LA",
-    "position": "LB",
-    "college": "Mississippi Gulf Coast CC",
-    "jersey_number": "51",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Tyler Booker",
     "team": "DAL",
     "position": "OL",
@@ -27100,7 +26960,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -27250,34 +27110,6 @@
     "college": "Rhode Island",
     "jersey_number": "65",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Jay Toia",
-    "team": "ARI",
-    "position": "DL",
-    "college": "UCLA",
-    "jersey_number": "92",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Jay Toia",
-    "team": "ARI",
-    "position": "DL",
-    "college": "USC",
-    "jersey_number": "92",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -27516,10 +27348,10 @@
     "college": "Texas Tech",
     "jersey_number": "85",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -27530,10 +27362,10 @@
     "college": "Washington State",
     "jersey_number": "85",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -27544,10 +27376,10 @@
     "college": "Fresno State",
     "jersey_number": "85",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -27660,7 +27492,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -27674,7 +27506,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28084,34 +27916,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Xavier Guillory",
-    "team": "BAL",
-    "position": "WR",
-    "college": "Arizona State",
-    "jersey_number": "16",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Xavier Guillory",
-    "team": "BAL",
-    "position": "WR",
-    "college": "Idaho State",
-    "jersey_number": "16",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Jay Higgins",
     "team": "BAL",
     "position": "LB",
@@ -28318,7 +28122,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28388,7 +28192,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28426,10 +28230,10 @@
     "college": "Iowa State",
     "jersey_number": "81",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28440,10 +28244,10 @@
     "college": "Eastern Kentucky",
     "jersey_number": "81",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28472,7 +28276,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28486,7 +28290,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28594,10 +28398,10 @@
     "college": "Iowa State",
     "jersey_number": "13",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28720,10 +28524,10 @@
     "college": "Tulane",
     "jersey_number": "27",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28734,10 +28538,10 @@
     "college": "Troy",
     "jersey_number": "27",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28748,10 +28552,10 @@
     "college": "West Virginia",
     "jersey_number": "64",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28790,10 +28594,10 @@
     "college": "USC",
     "jersey_number": "22",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -28836,7 +28640,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -28850,7 +28654,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29223,7 +29027,7 @@
     "position": "DL",
     "college": "Florida",
     "jersey_number": "99",
-    "roster_role": "2nd String",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -29237,7 +29041,7 @@
     "position": "DL",
     "college": "Memphis",
     "jersey_number": "99",
-    "roster_role": "2nd String",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -29424,7 +29228,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29438,7 +29242,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29452,7 +29256,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29466,7 +29270,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29750,6 +29554,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Devin Neal",
+    "team": "WAS",
+    "position": "RB",
+    "college": "Kansas",
+    "jersey_number": "24",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Will Howard",
     "team": "PIT",
     "position": "QB",
@@ -29868,10 +29686,10 @@
     "college": "Auburn",
     "jersey_number": "35",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -29882,10 +29700,10 @@
     "college": "Appalachian State",
     "jersey_number": "35",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -29924,10 +29742,10 @@
     "college": "Florida",
     "jersey_number": "18",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -29938,10 +29756,10 @@
     "college": "Wisconsin",
     "jersey_number": "18",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -29956,7 +29774,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -29966,10 +29784,10 @@
     "college": "Navy",
     "jersey_number": "25",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -30148,10 +29966,10 @@
     "college": "USC",
     "jersey_number": "60",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -30232,10 +30050,10 @@
     "college": "Texas",
     "jersey_number": "10",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -30246,10 +30064,10 @@
     "college": "Ohio State",
     "jersey_number": "10",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -30278,7 +30096,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -30316,10 +30134,10 @@
     "college": "Syracuse",
     "jersey_number": "5",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -30954,34 +30772,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Eugene Asante",
-    "team": "ARI",
-    "position": "LB",
-    "college": "Auburn",
-    "jersey_number": "48",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Eugene Asante",
-    "team": "ARI",
-    "position": "LB",
-    "college": "North Carolina",
-    "jersey_number": "48",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "A.J. Henning",
     "team": "MIA",
     "position": "WR",
@@ -31170,10 +30960,10 @@
     "college": "Wake Forest",
     "jersey_number": "50",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31198,10 +30988,10 @@
     "college": "Colorado",
     "jersey_number": "95",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31212,10 +31002,10 @@
     "college": "Arizona State",
     "jersey_number": "95",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31240,10 +31030,10 @@
     "college": "Oregon",
     "jersey_number": "37",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31254,10 +31044,10 @@
     "college": "Washington",
     "jersey_number": "37",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31268,10 +31058,10 @@
     "college": "Oklahoma State",
     "jersey_number": "37",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31296,10 +31086,10 @@
     "college": "Colorado",
     "jersey_number": "42",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31310,10 +31100,10 @@
     "college": "Jackson State University",
     "jersey_number": "42",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31352,10 +31142,10 @@
     "college": "Minnesota",
     "jersey_number": "92",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31688,10 +31478,10 @@
     "college": "Cincinnati",
     "jersey_number": "45",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31702,10 +31492,10 @@
     "college": "West Virginia",
     "jersey_number": "45",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31752,16 +31542,44 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Jamaal Pritchett",
+    "team": "NYJ",
+    "position": "WR",
+    "college": "South Alabama",
+    "jersey_number": "81",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Jamaal Pritchett",
+    "team": "NYJ",
+    "position": "WR",
+    "college": "Tuskegee University",
+    "jersey_number": "81",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Austin Brinkman",
     "team": "HOU",
     "position": "LS",
     "college": "West Virginia",
     "jersey_number": "40",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31772,10 +31590,10 @@
     "college": "Kentucky",
     "jersey_number": "66",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31786,10 +31604,10 @@
     "college": "North Carolina",
     "jersey_number": "21",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31800,10 +31618,10 @@
     "college": "East Tennessee State",
     "jersey_number": "21",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31814,10 +31632,10 @@
     "college": "Louisiana",
     "jersey_number": "52",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -31828,10 +31646,10 @@
     "college": "Utah",
     "jersey_number": "91",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -32074,6 +31892,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Xavier Truss",
+    "team": "PHI",
+    "position": "OL",
+    "college": "Georgia",
+    "jersey_number": "67",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "Johnny Walker Jr.",
     "team": "DEN",
     "position": "LB",
@@ -32130,6 +31962,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Luke Grimm",
+    "team": "LAC",
+    "position": "WR",
+    "college": "Kansas",
+    "jersey_number": "87",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "DJ Uiagalelei",
     "team": "LAC",
     "position": "QB",
@@ -32177,7 +32023,7 @@
     "position": "RB",
     "college": "South Carolina",
     "jersey_number": "23",
-    "roster_role": "2nd String",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -32191,7 +32037,7 @@
     "position": "RB",
     "college": "Arkansas",
     "jersey_number": "23",
-    "roster_role": "2nd String",
+    "roster_role": "Injured Reserve",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -32261,34 +32107,6 @@
     "position": "LB",
     "college": "Baylor",
     "jersey_number": "56",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Ulysses Bentley IV",
-    "team": "NO",
-    "position": "RB",
-    "college": "Mississippi",
-    "jersey_number": "37",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Ulysses Bentley IV",
-    "team": "NO",
-    "position": "RB",
-    "college": "SMU",
-    "jersey_number": "37",
     "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
@@ -32602,7 +32420,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -32616,7 +32434,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -33232,7 +33050,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -33246,7 +33064,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -33270,10 +33088,10 @@
     "college": "USC",
     "jersey_number": "4",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -33284,10 +33102,10 @@
     "college": "Mississippi State",
     "jersey_number": "4",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -33344,7 +33162,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -33970,10 +33788,10 @@
     "college": "South Carolina",
     "jersey_number": "38",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -34058,7 +33876,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34226,7 +34044,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34352,7 +34170,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34408,7 +34226,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34422,7 +34240,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34436,7 +34254,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34515,7 +34333,7 @@
     "position": "OL",
     "college": "LSU",
     "jersey_number": "66",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -34534,7 +34352,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34548,7 +34366,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34562,7 +34380,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34604,7 +34422,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34618,7 +34436,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34730,7 +34548,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -34740,10 +34558,10 @@
     "college": "Colorado",
     "jersey_number": "12",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -34754,10 +34572,10 @@
     "college": "Jackson State University",
     "jersey_number": "12",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -34768,10 +34586,10 @@
     "college": "Virginia Tech",
     "jersey_number": "33",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -34782,10 +34600,10 @@
     "college": "North Carolina A&T",
     "jersey_number": "33",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -35010,7 +34828,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35024,7 +34842,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35038,7 +34856,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35173,12 +34991,12 @@
     "position": "DL",
     "college": "Texas A&M",
     "jersey_number": "95",
-    "roster_role": "Injured Reserve",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35258,11 +35076,11 @@
     "college": "Minnesota",
     "jersey_number": "79",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35304,7 +35122,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35780,7 +35598,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35822,7 +35640,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35836,7 +35654,7 @@
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
     "opponent": "@ DEN",
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -35850,7 +35668,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -36074,7 +35892,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -37058,20 +36876,6 @@
     "sport": "NFL"
   },
   {
-    "full_name": "Josh Gesky",
-    "team": "GB",
-    "position": "OL",
-    "college": "Illinois",
-    "jersey_number": "76",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
     "full_name": "Nyjalik Kelly",
     "team": "GB",
     "position": "LB",
@@ -37470,10 +37274,10 @@
     "college": "Iowa",
     "jersey_number": "68",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38226,10 +38030,10 @@
     "college": "Texas A&M",
     "jersey_number": "98",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38309,7 +38113,7 @@
     "position": "OL",
     "college": "Florida",
     "jersey_number": "58",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -38324,10 +38128,10 @@
     "college": "Oregon",
     "jersey_number": "75",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38338,10 +38142,10 @@
     "college": "USC",
     "jersey_number": "75",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38352,10 +38156,10 @@
     "college": "Wyoming",
     "jersey_number": "75",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38478,10 +38282,10 @@
     "college": "Maryland",
     "jersey_number": "22",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38492,10 +38296,10 @@
     "college": "Bowling Green",
     "jersey_number": "22",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38604,10 +38408,10 @@
     "college": "Duke",
     "jersey_number": "90",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -38720,7 +38524,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38804,7 +38608,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38818,7 +38622,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38832,7 +38636,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38944,7 +38748,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38972,7 +38776,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -38986,7 +38790,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39098,7 +38902,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39108,10 +38912,10 @@
     "college": "Houston",
     "jersey_number": "88",
     "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -39122,10 +38926,10 @@
     "college": "Ball State",
     "jersey_number": "88",
     "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -39140,7 +38944,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39154,7 +38958,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39210,7 +39014,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39224,7 +39028,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39238,7 +39042,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39308,7 +39112,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39434,7 +39238,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39448,7 +39252,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -39458,10 +39262,10 @@
     "college": "Baylor",
     "jersey_number": "19",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -39598,10 +39402,10 @@
     "college": "Stanford",
     "jersey_number": "18",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -39612,10 +39416,10 @@
     "college": "Wisconsin",
     "jersey_number": "18",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -39737,7 +39541,7 @@
     "position": "DL",
     "college": "Georgia Tech",
     "jersey_number": "96",
-    "roster_role": "2nd String",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -39751,7 +39555,7 @@
     "position": "DL",
     "college": "Penn State",
     "jersey_number": "96",
-    "roster_role": "2nd String",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -39765,7 +39569,7 @@
     "position": "DL",
     "college": "Iowa Western CC",
     "jersey_number": "96",
-    "roster_role": "2nd String",
+    "roster_role": "3rd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -40004,10 +39808,10 @@
     "college": "Washington",
     "jersey_number": "58",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -40018,10 +39822,10 @@
     "college": "Sioux Falls",
     "jersey_number": "58",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -40032,20 +39836,6 @@
     "college": "Texas Tech",
     "jersey_number": "15",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Gavin Gerhardt",
-    "team": "HOU",
-    "position": "OL",
-    "college": "Cincinnati",
-    "jersey_number": "58",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -40144,10 +39934,10 @@
     "college": "Middle Tennessee State",
     "jersey_number": "53",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -40218,7 +40008,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -40232,7 +40022,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -40246,7 +40036,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -40619,7 +40409,7 @@
     "position": "DL",
     "college": "Western Michigan",
     "jersey_number": "59",
-    "roster_role": "3rd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -40885,7 +40675,7 @@
     "position": "RB",
     "college": "Texas-San Antonio",
     "jersey_number": "34",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": "Thu, Oct 15 @ 7:15pm Central / 5:15pm Pacific",
     "kickoff_iso": "2026-10-15T20:15:00-04:00",
     "network": "Prime Video",
@@ -41138,10 +40928,10 @@
     "college": "Tennessee",
     "jersey_number": "17",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41152,10 +40942,10 @@
     "college": "Appalachian State",
     "jersey_number": "17",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41166,10 +40956,10 @@
     "college": "Diablo Valley College",
     "jersey_number": "17",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41180,10 +40970,10 @@
     "college": "California",
     "jersey_number": "94",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41194,10 +40984,10 @@
     "college": "Wisconsin",
     "jersey_number": "94",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41208,10 +40998,10 @@
     "college": "UCLA",
     "jersey_number": "74",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41222,10 +41012,10 @@
     "college": "Penn State",
     "jersey_number": "86",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41236,10 +41026,10 @@
     "college": "Syracuse",
     "jersey_number": "86",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41250,10 +41040,10 @@
     "college": "Virginia",
     "jersey_number": "30",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41264,10 +41054,10 @@
     "college": "North Carolina Central",
     "jersey_number": "30",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41278,10 +41068,10 @@
     "college": "South Carolina",
     "jersey_number": "57",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41292,10 +41082,10 @@
     "college": "Montana",
     "jersey_number": "0",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -41306,10 +41096,10 @@
     "college": "Eastern Washington",
     "jersey_number": "0",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42174,10 +41964,10 @@
     "college": "South Dakota State",
     "jersey_number": "76",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42188,10 +41978,10 @@
     "college": "North Dakota",
     "jersey_number": "76",
     "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42201,11 +41991,11 @@
     "position": "DL",
     "college": "N.C. State",
     "jersey_number": "54",
-    "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "roster_role": "3rd String",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42215,11 +42005,11 @@
     "position": "DL",
     "college": "Wyoming",
     "jersey_number": "54",
-    "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "roster_role": "3rd String",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42230,10 +42020,10 @@
     "college": "Iowa State",
     "jersey_number": "70",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42244,24 +42034,10 @@
     "college": "Independence Comm. College",
     "jersey_number": "70",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Daniel Sobkowicz",
-    "team": "HOU",
-    "position": "WR",
-    "college": "Illinois State",
-    "jersey_number": "89",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42272,10 +42048,10 @@
     "college": "Oregon",
     "jersey_number": "26",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42286,10 +42062,10 @@
     "college": "Western Kentucky",
     "jersey_number": "26",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42300,10 +42076,10 @@
     "college": "Stanford",
     "jersey_number": "37",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -42388,7 +42164,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -42402,7 +42178,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -42566,34 +42342,6 @@
     "college": "West Virginia",
     "jersey_number": "43",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Cody Hardy",
-    "team": "NYJ",
-    "position": "TE",
-    "college": "N.C. State",
-    "jersey_number": "88",
-    "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Cody Hardy",
-    "team": "NYJ",
-    "position": "TE",
-    "college": "Elon",
-    "jersey_number": "88",
-    "roster_role": "Practice Squad",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -42976,7 +42724,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -42990,7 +42738,49 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Elijah Culp",
+    "team": "GB",
+    "position": "DB",
+    "college": "James Madison",
+    "jersey_number": "40",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Elijah Culp",
+    "team": "GB",
+    "position": "DB",
+    "college": "Charlotte",
+    "jersey_number": "40",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
+    "full_name": "Elijah Culp",
+    "team": "GB",
+    "position": "DB",
+    "college": "Troy",
+    "jersey_number": "40",
+    "roster_role": "Practice Squad",
+    "next_game": null,
+    "kickoff_iso": null,
+    "network": null,
+    "opponent": null,
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -43200,7 +42990,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -43424,7 +43214,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -44236,7 +44026,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Questionable",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -44260,11 +44050,11 @@
     "college": "Ohio State",
     "jersey_number": "93",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "Questionable",
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -44414,10 +44204,10 @@
     "college": "Indiana",
     "jersey_number": "59",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44428,24 +44218,10 @@
     "college": "James Madison",
     "jersey_number": "59",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Brock Rechsteiner",
-    "team": "NO",
-    "position": "WR",
-    "college": "Jacksonville State",
-    "jersey_number": "89",
-    "roster_role": "Injured Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44722,10 +44498,10 @@
     "college": "Clemson",
     "jersey_number": "30",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44736,10 +44512,10 @@
     "college": "USC",
     "jersey_number": "27",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44750,10 +44526,10 @@
     "college": "UCLA",
     "jersey_number": "27",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44764,10 +44540,10 @@
     "college": "Boston College",
     "jersey_number": "82",
     "roster_role": "Practice Squad",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -44848,10 +44624,10 @@
     "college": "Michigan",
     "jersey_number": "83",
     "roster_role": "Reserve",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -45254,10 +45030,10 @@
     "college": "Texas A&M",
     "jersey_number": "87",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -45268,10 +45044,10 @@
     "college": "Nebraska",
     "jersey_number": "87",
     "roster_role": "2nd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "vs HOU",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -45482,7 +45258,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -45496,7 +45272,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -45688,10 +45464,10 @@
     "college": "Georgia Tech",
     "jersey_number": "66",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -45702,10 +45478,10 @@
     "college": "Middle Tennessee State",
     "jersey_number": "66",
     "roster_role": "Starter",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -45799,7 +45575,7 @@
     "position": "OL",
     "college": "Utah",
     "jersey_number": "74",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -46014,7 +45790,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -46028,7 +45804,7 @@
     "kickoff_iso": null,
     "network": null,
     "opponent": null,
-    "injury_status": "Out",
+    "injury_status": "",
     "sport": "NFL"
   },
   {
@@ -46220,10 +45996,10 @@
     "college": "Oklahoma",
     "jersey_number": "64",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -46234,10 +46010,10 @@
     "college": "North Texas",
     "jersey_number": "64",
     "roster_role": "3rd String",
-    "next_game": null,
-    "kickoff_iso": null,
-    "network": null,
-    "opponent": null,
+    "next_game": "Sun, Oct 18 @ 8:30am Central / 6:30am Pacific",
+    "kickoff_iso": "2026-10-18T09:30:00-04:00",
+    "network": "NFL Net",
+    "opponent": "@ JAX",
     "injury_status": "",
     "sport": "NFL"
   },
