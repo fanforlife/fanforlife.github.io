@@ -920,7 +920,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs CHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -934,7 +934,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs CHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -1144,7 +1144,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -1774,7 +1774,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -1788,7 +1788,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -1900,7 +1900,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -2110,7 +2110,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2138,7 +2138,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2152,7 +2152,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2474,7 +2474,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2852,7 +2852,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2922,7 +2922,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2978,7 +2978,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -2992,7 +2992,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -3006,7 +3006,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -3524,7 +3524,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -3692,7 +3692,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4406,7 +4406,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -4420,7 +4420,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -4490,7 +4490,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4560,7 +4560,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4588,7 +4588,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4728,7 +4728,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ LV",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -4854,7 +4854,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4882,7 +4882,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -4896,7 +4896,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -5240,7 +5240,7 @@
     "team": "NYJ",
     "position": "DL",
     "college": "Prairie View A&M",
-    "jersey_number": "58",
+    "jersey_number": "43",
     "roster_role": "Practice Squad",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
@@ -5274,7 +5274,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs TEN",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -5624,7 +5624,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ LV",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -6100,7 +6100,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -6184,7 +6184,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -6212,7 +6212,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -6226,7 +6226,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -6338,20 +6338,6 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Darius Slayton",
-    "team": "IND",
-    "position": "WR",
-    "college": "Auburn",
-    "jersey_number": "11",
-    "roster_role": "Reserve",
-    "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
-    "kickoff_iso": "2026-10-18T13:00:00-04:00",
-    "network": "Fox",
-    "opponent": "vs TEN",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -6548,7 +6534,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -6697,7 +6683,7 @@
     "position": "DB",
     "college": "Washington",
     "jersey_number": "30",
-    "roster_role": "3rd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -6800,7 +6786,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -6870,7 +6856,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -6982,7 +6968,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -6996,7 +6982,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -7047,7 +7033,7 @@
     "position": "LB",
     "college": "LSU",
     "jersey_number": "45",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -7220,7 +7206,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "vs HOU",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -7262,7 +7248,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -7290,7 +7276,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -7528,7 +7514,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -7640,7 +7626,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -7780,7 +7766,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -7794,7 +7780,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -8214,7 +8200,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -8228,7 +8214,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -8242,7 +8228,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -8326,7 +8312,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs CHI",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -8830,7 +8816,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "vs ARI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -8970,7 +8956,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs LAC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -9040,7 +9026,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -9082,7 +9068,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -9096,7 +9082,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -9264,7 +9250,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -9320,7 +9306,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -9334,7 +9320,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -9516,7 +9502,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -9572,7 +9558,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -9670,7 +9656,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -10006,7 +9992,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -10426,7 +10412,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -10538,7 +10524,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -10692,7 +10678,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -10706,7 +10692,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -11028,7 +11014,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -11280,7 +11266,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -11294,7 +11280,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -11406,7 +11392,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -11770,7 +11756,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ LV",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -11924,7 +11910,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12050,7 +12036,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ LV",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12260,7 +12246,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12274,7 +12260,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12330,7 +12316,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -12358,7 +12344,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "vs HOU",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12521,7 +12507,7 @@
     "position": "WR",
     "college": "Indiana PA,  University of",
     "jersey_number": "85",
-    "roster_role": "Reserve",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -12535,7 +12521,7 @@
     "position": "WR",
     "college": "Penn State",
     "jersey_number": "85",
-    "roster_role": "Reserve",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -12596,7 +12582,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "vs ARI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12890,7 +12876,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -12988,7 +12974,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -13128,7 +13114,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -13179,7 +13165,7 @@
     "position": "RB",
     "college": "Florida",
     "jersey_number": "39",
-    "roster_role": "3rd String",
+    "roster_role": "2nd String",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
@@ -13515,7 +13501,7 @@
     "position": "LB",
     "college": "Oklahoma State",
     "jersey_number": "44",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -13716,7 +13702,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "vs HOU",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -14626,7 +14612,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -14640,7 +14626,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -15312,7 +15298,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -15382,7 +15368,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -15564,7 +15550,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -15592,7 +15578,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -15774,7 +15760,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -15783,12 +15769,12 @@
     "position": "OL",
     "college": "Nebraska",
     "jersey_number": "64",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -15872,7 +15858,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -15900,7 +15886,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -16208,7 +16194,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -16334,7 +16320,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs TEN",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -16446,7 +16432,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -16838,7 +16824,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -16852,7 +16838,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -16866,7 +16852,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -16880,7 +16866,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -17216,7 +17202,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -17230,7 +17216,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -17286,7 +17272,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -17818,7 +17804,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -17832,7 +17818,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -17995,7 +17981,7 @@
     "position": "RB",
     "college": "Boise State",
     "jersey_number": "44",
-    "roster_role": "2nd String",
+    "roster_role": "Starter",
     "next_game": "Sun, Oct 18 @ 3:25pm Central / 1:25pm Pacific",
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
@@ -18112,7 +18098,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -18126,7 +18112,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -19568,7 +19554,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -19624,7 +19610,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -19638,7 +19624,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -19652,7 +19638,7 @@
     "kickoff_iso": "2026-10-18T09:30:00-04:00",
     "network": "NFL Net",
     "opponent": "@ JAX",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -20114,7 +20100,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -20212,7 +20198,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -20408,7 +20394,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs LAC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -20450,7 +20436,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -20464,7 +20450,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -20478,7 +20464,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -20618,7 +20604,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -21052,7 +21038,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -21439,7 +21425,7 @@
     "position": "LB",
     "college": "Army",
     "jersey_number": "46",
-    "roster_role": "3rd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -21663,7 +21649,7 @@
     "position": "RB",
     "college": "UCLA",
     "jersey_number": "34",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
@@ -21677,7 +21663,7 @@
     "position": "RB",
     "college": "Ball State",
     "jersey_number": "34",
-    "roster_role": "Reserve",
+    "roster_role": "3rd String",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
@@ -22410,7 +22396,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs TEN",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -24528,6 +24514,20 @@
     "sport": "NFL"
   },
   {
+    "full_name": "Jayden Price",
+    "team": "NO",
+    "position": "DB",
+    "college": "North Dakota State",
+    "jersey_number": "38",
+    "roster_role": "Practice Squad",
+    "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
+    "kickoff_iso": "2026-10-18T13:00:00-04:00",
+    "network": "Fox",
+    "opponent": "@ NYG",
+    "injury_status": "",
+    "sport": "NFL"
+  },
+  {
     "full_name": "JC Latham",
     "team": "TEN",
     "position": "OL",
@@ -24678,7 +24678,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ TB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -24692,7 +24692,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -24706,7 +24706,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -24771,12 +24771,12 @@
     "position": "RB",
     "college": "Clemson",
     "jersey_number": "28",
-    "roster_role": "Starter",
+    "roster_role": "Injured Reserve",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -25448,7 +25448,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -25994,7 +25994,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26162,7 +26162,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26526,7 +26526,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26540,7 +26540,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26582,7 +26582,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26610,7 +26610,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -26918,7 +26918,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -26932,7 +26932,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -27156,7 +27156,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -27739,12 +27739,12 @@
     "position": "OL",
     "college": "LSU",
     "jersey_number": "51",
-    "roster_role": "3rd String",
+    "roster_role": "Starter",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -28220,7 +28220,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs LAC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -28234,7 +28234,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs LAC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -28402,7 +28402,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs TEN",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -28640,7 +28640,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ IND",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -28682,7 +28682,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -28696,7 +28696,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -28710,7 +28710,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -29004,7 +29004,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -29144,7 +29144,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -29396,7 +29396,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -29410,7 +29410,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -30138,7 +30138,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -30152,7 +30152,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -30194,7 +30194,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -30208,7 +30208,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -30292,7 +30292,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -32378,7 +32378,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -32392,7 +32392,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -33260,7 +33260,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -33302,7 +33302,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -33316,7 +33316,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -33414,7 +33414,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -33876,7 +33876,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -33890,7 +33890,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34366,7 +34366,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34403,7 +34403,7 @@
     "position": "DB",
     "college": "Rice",
     "jersey_number": "37",
-    "roster_role": "3rd String",
+    "roster_role": "Active Roster",
     "next_game": null,
     "kickoff_iso": null,
     "network": null,
@@ -34422,7 +34422,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34478,7 +34478,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34492,7 +34492,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34506,7 +34506,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34590,7 +34590,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34604,7 +34604,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -34618,7 +34618,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -34632,7 +34632,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -34814,7 +34814,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34940,7 +34940,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ LV",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -34996,7 +34996,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -35010,7 +35010,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -35150,7 +35150,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -35388,7 +35388,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -35626,7 +35626,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -35640,7 +35640,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs BAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -35850,7 +35850,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -35864,7 +35864,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs BUF",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -35934,7 +35934,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -36060,7 +36060,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -36074,7 +36074,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ CLE",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -36088,7 +36088,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "@ GB",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -37936,7 +37936,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -38020,7 +38020,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -38057,12 +38057,12 @@
     "position": "OL",
     "college": "Georgia",
     "jersey_number": "57",
-    "roster_role": "Starter",
+    "roster_role": "2nd String",
     "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ PHI",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -39224,7 +39224,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -39238,7 +39238,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ ATL",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -39294,7 +39294,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -39308,7 +39308,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -39322,7 +39322,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "@ NYG",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -41716,7 +41716,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -41730,7 +41730,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -42472,7 +42472,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -42486,7 +42486,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs NYJ",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -42668,34 +42668,6 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "vs LAC",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Alan Herron",
-    "team": "NO",
-    "position": "OL",
-    "college": "Maryland",
-    "jersey_number": "70",
-    "roster_role": "Practice Squad",
-    "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
-    "kickoff_iso": "2026-10-18T13:00:00-04:00",
-    "network": "Fox",
-    "opponent": "@ NYG",
-    "injury_status": "",
-    "sport": "NFL"
-  },
-  {
-    "full_name": "Alan Herron",
-    "team": "NO",
-    "position": "OL",
-    "college": "Shorter University",
-    "jersey_number": "70",
-    "roster_role": "Practice Squad",
-    "next_game": "Sun, Oct 18 @ 12:00pm Central / 10:00am Pacific",
-    "kickoff_iso": "2026-10-18T13:00:00-04:00",
-    "network": "Fox",
-    "opponent": "@ NYG",
     "injury_status": "",
     "sport": "NFL"
   },
@@ -43200,7 +43172,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -43214,7 +43186,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -43228,7 +43200,7 @@
     "kickoff_iso": "2026-10-18T16:05:00-04:00",
     "network": "Fox",
     "opponent": "@ LA",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -43298,7 +43270,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Doubtful",
     "sport": "NFL"
   },
   {
@@ -44726,7 +44698,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -44740,7 +44712,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -44754,7 +44726,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "Fox",
     "opponent": "vs NO",
-    "injury_status": "",
+    "injury_status": "Out",
     "sport": "NFL"
   },
   {
@@ -44894,7 +44866,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -44908,7 +44880,7 @@
     "kickoff_iso": "2026-10-18T20:20:00-04:00",
     "network": "NBC",
     "opponent": "vs DAL",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -45020,7 +44992,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -45034,7 +45006,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -45048,7 +45020,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs CAR",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -45328,7 +45300,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "vs PIT",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -45440,7 +45412,7 @@
     "kickoff_iso": "2026-10-18T13:00:00-04:00",
     "network": "CBS",
     "opponent": "@ NE",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -46112,7 +46084,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
@@ -46126,7 +46098,7 @@
     "kickoff_iso": "2026-10-18T16:25:00-04:00",
     "network": "CBS",
     "opponent": "@ KC",
-    "injury_status": "",
+    "injury_status": "Questionable",
     "sport": "NFL"
   },
   {
